@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
+    sans-serif;
+}
+
+body {
+  background-color: #e6f7ff;
+}
+
+.title h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #1f3a93;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.opening {
+  margin-top: 6rem;
+}
+
+marquee img {
+  width: 30rem;
+  height: 20rem;
+  margin: 0.25rem;
+}
+
+.myCarousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.carousel .container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel .yt-video {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel iframe {
+  width: 100%;
+  height: 28.125rem;
+  border: none;
+}
+
+.c-btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.left {
+  left: 0.6rem;
+}
+
+.right {
+  right: 0.6rem;
+}
+
+.c-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 25rem;
+}
+
+.next-poster {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next-poster img {
+  height: 90%;
+  width: 70%;
+}
+.upcoming .register {
+  height: 100%;
+  width: 38%;
+  margin-right: 2%;
+  margin-top: 3rem;
+}
+.register h2 {
+  color: #1f3a93;
+  text-align: center;
+}
+.upcoming .button {
+  all: unset;
+  background-color: #1f3a93;
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 550;
+  margin: 0 auto;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 10px #3a4fbd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .myCarousel {
+    height: 24rem;
+  }
+  .carousel iframe {
+    height: 22.5rem;
+  }
+  .c-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .upcoming {
+    height: 22rem;
+    width: 100%;
+  }
+  .next-poster {
+    height: 15rem;
+    width: 100%;
+  }
+  .next-poster img {
+    width: 25rem;
+  }
+  .upcoming .register {
+    height: 18rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .myCarousel {
+    height: 22rem;
+  }
+  .carousel iframe {
+    height: 20.2rem;
+  }
+  .c-btn {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+  }
+  .upcoming {
+    height: 33rem;
+    width: 100%;
+  }
+  .next-poster {
+    height: 15rem;
+    width: 100%;
+  }
+  .next-poster img {
+    width: 19rem;
+  }
+  .upcoming .register {
+    height: 18rem;
+    width: 96%;
+    margin: 2%;
+    margin-bottom: 1rem;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  marquee img {
+    width: 21rem;
+    height: 14rem;
+    margin: 0.25rem;
+  }
+}

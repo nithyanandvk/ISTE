@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISTE FAMILY</title>
+    <link rel="icon" href="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png" />
+    <link rel="stylesheet" href="/css/team.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <%- include("includes/nav.ejs") %> <%- include("./includes/cursor.ejs") %>
+    <h1 class="meet opening">OUR TEAM</h1>
+    <div class="teamholder">
+      <div class="teamnav">
+        <div
+          class="tnav-faculty tnav active"
+          id="tnav-faculty"
+          onclick="showSubTeam('t-faculty',this)"
+        >
+          <p>FACULTY</p>
+        </div>
+        <div
+          class="tnav-advisory tnav"
+          id="tnav-advisory"
+          onclick="showSubTeam('t-advisory',this)"
+        >
+          <p>ADVISORY BOARD</p>
+        </div>
+        <div
+          class="tnav-main tnav"
+          id="tnav-main"
+          onclick="showSubTeam('t-main',this)"
+        >
+          <p>MAIN BOARD</p>
+        </div>
+        <div
+          class="tnav-coordinators tnav"
+          id="tnav-coordinators"
+          onclick="showSubTeam('t-coordinators',this)"
+        >
+          <p>COORDINATORS</p>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <div class="main-body" id="t-faculty">
+      <div class="team-div">
+        <div class="t-img" style="background-image: url()"></div>
+        <div class="t-details">
+          <h3>name</h3>
+          <p>faculty</p>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="team-div">
+        <div class="t-img" style="background-image: url()"></div>
+        <div class="t-details">
+          <h3>name</h3>
+          <p>faculty</p>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="team-div">
+        <div class="t-img" style="background-image: url()"></div>
+        <div class="t-details">
+          <h3>name</h3>
+          <p>faculty</p>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="team-div">
+        <div class="t-img" style="background-image: url()"></div>
+        <div class="t-details">
+          <h3>name</h3>
+          <p>faculty</p>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-body" id="t-advisory">
+      <% for(advisor of advisors){ %>
+      <div class="team-div">
+        <div
+          class="t-img"
+          style="background-image: url(<%=advisor.url%>)"
+        ></div>
+        <div class="t-details">
+          <h3><%=advisor.name%></h3>
+          <p><%=advisor.role%></p>
+          <a href="<%=advisor.linkedin%>"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+    
+    <div class="main-body" id="t-main">
+      <% for(mainMember of mainMembers){ %>
+      <div class="team-div">
+        <div
+          class="t-img"
+          style="background-image: url(<%=mainMember.url%>)"
+        ></div>
+        <div class="t-details">
+          <h3><%=mainMember.name%></h3>
+          <p><%=mainMember.role%></p>
+          <a href="<%=mainMember.linkedin%>"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+
+    <div class="main-body" id="t-coordinators">
+      <% for(coordinator of coordinators){ %>
+      <div class="team-div co">
+        <div
+          class="t-img"
+          style="background-image: url(<%=coordinator.url%>)"
+        ></div>
+        <div class="t-details">
+          <h3><%=coordinator.name%></h3>
+          <p><%=coordinator.role%></p>
+          <a href="<%=coordinator.linkedin%>"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+
+    <br /><br />
+    <%- include("includes/contact.ejs") %>
+    <script src="/js/team.js"></script>
+  </body>
+</html>

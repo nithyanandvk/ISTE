@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
+    sans-serif;
+}
+#contactus {
+  width: 100%;
+  background-color: black !important;
+}
+
+.iste-footer {
+  width: 98%;
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+}
+
+.footer-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.footer-1 img {
+  height: 6.5rem;
+  margin-top: 0.5rem;
+}
+
+.f-iste {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-iste h1 {
+  padding-left: 1rem;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+.footer-2 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  line-height: 1.3rem;
+}
+
+.heading {
+  margin-top: 1rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold !important;
+}
+
+.address h4 {
+  opacity: 0.8;
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+
+.heading:hover,
+.address h4:hover {
+  opacity: 1;
+}
+.footer-2 ul {
+  list-style: none;
+}
+.footer-2 ul li {
+  padding-bottom: 0.8rem;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+.footer-2 ul a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+.footer-2 ul a:hover {
+  opacity: 1;
+  font-size: 1.3rem;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ids i {
+  color: white !important;
+  font-size: 2.5rem !important;
+}
+
+.mail:hover {
+  opacity: 1;
+  background-color: #ff0000;
+}
+.linkedin:hover {
+  opacity: 1;
+  background-color: #0077b5;
+}
+.insta:hover {
+  opacity: 1;
+  background-color: #e1306c;
+}
+.yt:hover {
+  opacity: 1;
+  background-color: #ff0000;
+}
+
+.copy {
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.copy h4 {
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+
+@media (max-width: 400px) {
+  .footer-1 img {
+    height: 4.5rem;
+  }
+  .f-iste h1 {
+    font-size: 1.2rem;
+    padding-left: 0.4rem;
+  }
+  .footer-2 ul li {
+    padding-bottom: 0.6rem;
+    font-size: 1rem;
+  }
+  .footer-2 ul li :hover {
+    font-size: 1.1rem;
+  }
+  .following {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .footer-1 img {
+    height: 5rem;
+  }
+  .f-iste h1 {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+  }
+}

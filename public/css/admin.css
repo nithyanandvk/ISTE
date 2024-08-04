@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
+    sans-serif;
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #e6f7ff;
+}
+
+.opening {
+  margin-top: 6rem;
+}
+
+/* admin.ejs */
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.three-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.three{
+    margin: 2rem;
+}

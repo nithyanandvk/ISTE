@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Marquee</title>
+    <style>
+      img{
+        width: 30rem;
+        height: 20rem;
+        margin: 0.125rem;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee behavior="scroll" direction="left" scrollamount="25">
+      <% for(image of images){ %>
+      <img src="<%= image.url %>" alt="" />
+      <% } %> 
+    </marquee>
+  </body>
+</html>

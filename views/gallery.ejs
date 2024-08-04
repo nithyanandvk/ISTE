@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="icon" href="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png" />
+    <link href="/css/gallery.css" rel="stylesheet" />
+  </head>
+  <body>
+    <%- include("includes/nav.ejs") %>
+    <%- include("./includes/cursor.ejs") %>
+    <div class="gallery opening">
+      <h1>GALLERY</h1>
+    </div>
+    <div class="photos">
+      <% for(image of gallery) {%>
+      <div class="horizontally">
+        <img src="<%= image.url %>" alt="" />
+      </div>
+      <% } %>
+    </div>
+    <%- include("includes/contact.ejs") %>
+  </body>
+</html>

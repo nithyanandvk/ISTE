@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISTE MBU & SVEC</title>
+    <link rel="icon" href="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png" />
+    <link rel="stylesheet" href="/css/about.css" />
+  </head>
+  <body>
+    <%- include("./includes/nav.ejs") %>
+    <%- include("./includes/cursor.ejs") %>
+    <canvas id="starCanvas"></canvas>
+    <div class="top">
+      <div class="graphic">
+        <div class="logoo">
+          <div class="animated-background"></div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="welcoming">
+          <h1 class="welcome">WELCOME TO ISTE MBU & SVEC</h1>
+        </div>
+      </div>
+    </div>
+    <!-- <hr style="color: white; background-color: white; height: 0.2rem" /> -->
+    <div class="middle">
+      <div class="content-box">
+        <h1 style="text-align: center">ABOUT US</h1>
+        <div class="information">
+          <div>
+            ISTE student chapter dedicated to advancing technical education by
+            promoting quality standards and encouraging research and innovation
+            in engineering and technology. With a diverse membership that
+            includes educators, students, and professionals in technical fields.
+            MBU and SVEC ISTE Student chapter plays a crucial role in
+            disseminating knowledge through the organization of conferences,
+            workshops, and seminars, providing valuable opportunities for
+            learning and professional development. The organization encourages
+            innovation and practical learning, fostering creativity and
+            problem-solving among the younger generation. Also publishes
+            journals, newsletters, and technical papers, sharing the latest
+            research findings and technological advancements with its members.
+            Its collaborative efforts extend to national organizations,
+            government bodies, industry partners, and educational institutions,
+            enhancing the overall quality of technical education. With a mission
+            to develop top-quality technologists, ISTE remains committed to
+            meeting the evolving educational needs of the country. On this
+            exciting journey with us, and be a part of our ISTE community. We
+            look forward to engaging with you and helping you thrive in our
+            journey.
+          </div>
+
+          <div class="benefits">
+            <br /><br />
+            <b>Major benefits of becoming an ISTE member : </b> <br />
+            A Member of a National Professional Organization. <br />
+            Joined an academic Fraternity of over 1,00,000 strong professional.
+            <br />
+            Preference to attend short-term training program for the academic
+            excellence and to become eligible for career advancement
+            opportunities. <br />
+            Getting monthly e-copy of ISTE Newsletter by email. <br />
+            Quarterly Indian journal of Technical Education (at concessional
+            rates). <br />
+            Many more publications for Self Development, Institution
+            Development, etc. (at concessional rates). <br />
+            Eligible to participate in Chapter level, Section level and National
+            Level Conferences, Workshops and other activities of your academic
+            interest etc <br />
+          </div>
+
+          <br />
+          <div class="but">
+            <button class="view" onclick="showBenefits()">VIEW BENEFITS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <hr style="color: white; background-color: white; height: 0.2rem" /> -->
+
+    <div class="last">
+      <h1>Teams</h1>
+      <div class="teams">
+        <div class="team">
+          <div class="team-image poster">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779789/poster_fmymrw.png" alt="" />
+          </div>
+          <h3>POSTER</h3>
+          <div class="team-description" id="poster-info">
+            Poster Team's artistry amplifies message, making events unmissable.
+            Their designs are the first glimpse into the exciting world of ISTE.
+            The Poster Team holds a pivotal position, wielding creativity and
+            design. By showcasing event details, themes, and highlights, they
+            create anticipation and attract attention.
+          </div>
+          <div class="direct" onclick="showInfo('poster-info')">INFO</div>
+        </div>
+        <div class="team">
+          <div class="team-image drafting">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779774/drafting_dmqlzi.png" alt="" />
+          </div>
+          <h3>DRAFTING</h3>
+          <div class="team-description" id="drafting-info">
+            The Drafting Team is the creative heartbeat, weaving words into
+            captivating narratives. They distill event details into impactful
+            content to prose curiosity and draws participants in. Team ensures
+            that information reaches the audience accurately by words resonate.
+            their words connect content bridges gaps.
+          </div>
+          <div class="direct" onclick="showInfo('drafting-info')">INFO</div>
+        </div>
+        <div class="team">
+          <div class="team-image documentation">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779780/documentation_yiqt4o.png" alt="" />
+          </div>
+          <h3>DOCUMENTATION</h3>
+          <div class="team-description" id="documentation-info">
+            Documentation Team is the unsung hero behind the scenes, ensuring
+            that the ISTE Chapter functions smoothly, it meticulously handles
+            all application forms for registrations and facilitate efficient
+            communication between participants and the chapter. Taking the lead
+            in safeguarding each and every critical event data.
+          </div>
+          <div class="direct" onclick="showInfo('documentation-info')">
+            INFO
+          </div>
+        </div>
+        <div class="team">
+          <div class="team-image management">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779778/management_alhhsw.png" alt="" />
+          </div>
+          <h3>MANAGEMENT</h3>
+          <div class="team-description" id="management-info">
+            Management Team dons many hats, ensuring events plays out
+            flawlessly. Orchestrate the event's requirements from logistics to
+            resources ensures nothing is overlooked. Transform constraints into
+            opportunities, Budgets, timelines. Turning limited resources into
+            memorable experiences.
+          </div>
+          <div class="direct" onclick="showInfo('management-info')">INFO</div>
+        </div>
+        <div class="team">
+          <div class="team-image scheduling">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779793/scheduling_kkxgt6.png" alt="" />
+          </div>
+          <h3>SCHEDULING</h3>
+          <div class="team-description" id="scheduling-info">
+            Scheduling Team ensures rhythm and its melody unforgettable.
+            Scheduling Team is the conductor of grand orchestra. Wield the baton
+            and event schedules. create a seamless timeline, choreograph
+            promotions. Timely announcements, teaser campaigns, build
+            anticipation. precision ensures no note is out of place.
+          </div>
+          <div class="direct" onclick="showInfo('scheduling-info')">INFO</div>
+        </div>
+
+        <div class="team">
+          <div class="team-image social">
+            <img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779787/social_w27mjs.png" alt="" />
+          </div>
+          <h3>SOCIAL MEDIA</h3>
+          <div class="team-description" id="social-info">
+            The Social Media Team advances ISTE's purpose by utilizing digital
+            expertise. By bridging the digital and physical worlds, Team ensures
+            that ISTE's legacy endures. To pique viewers' interest, the team
+            writes engaging narratives for YouTube, LinkedIn, and Instagram.
+            boosting ISTE's online visibility and recruiting new members.
+          </div>
+          <div class="direct" onclick="showInfo('social-info')">INFO</div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <%- include("includes/contact.ejs") %>
+    <script src="/js/about.js"></script>
+  </body>
+</html>

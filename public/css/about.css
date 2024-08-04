@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
+    sans-serif;
+  
+}
+
+body {
+  background-color: #e6f7ff;
+  width: 100%;
+  /* background: linear-gradient(to right, #E6F7FF, #AFCBFF); */
+  color: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 4rem;
+  color: #1f3a93;
+  animation: fade 1s ease 1s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.top {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 34rem;
+}
+.logoo {
+  width: 27.05rem;
+  height: 27rem;
+}
+
+.animated-background {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  animation: animateBackground 5s linear infinite;
+  background-image: url("https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+@keyframes animateBackground {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.middle {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.middle h1 {
+  color: #1f3a93;
+}
+
+.content-box {
+  margin-top: 2rem;
+  background-color: #f5f5dc;
+  background-color: #e6e6fa;
+  background: linear-gradient(to right, #d4e4f7, #afcbff);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+  border-radius: 3rem;
+}
+.content-box h1 {
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+.information {
+  width: 90%;
+  padding: 5%;
+  padding-top: 2%;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+  padding-bottom: 0;
+  color: #333333;
+  text-align: justify;
+}
+
+.view {
+  all: unset;
+  background-color: #1f3a93;
+  width: 15rem;
+  height: 4rem;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 550;
+  border-radius: 2rem;
+  text-align: center;
+}
+.but {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.view:hover {
+  box-shadow: 3px 3px 10px #3a4fbd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.benefits {
+  display: none;
+}
+
+.last {
+  width: 100%;
+}
+
+.last h1 {
+  color: #1f3a93;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.teams {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .direct {
+  height: 2rem;
+  width: 7rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  background-color: #1f3a93;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 550;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.direct:hover {
+  box-shadow: 1px 1px 5px #3a4fbd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.team {
+  width: 26rem;
+  background-color: #fff9e6;
+  background-color: #fbe5e5;
+  margin: 1rem;
+  border-radius: 5%;
+}
+
+.team:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+.team-image {
+  height: 13rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.team h3 {
+  color: #f93535;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.team-description {
+  font-size: 1.1rem;
+  width: 90%;
+  margin: auto;
+  display: none;
+  color: #333333;
+}
+
+.teams img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1080px) {
+  .logoo {
+    width: 20.05rem;
+    height: 20rem;
+  }
+  .graphic {
+    height: 27rem;
+  }
+  .welcome {
+    font-size: 3.5rem;
+  }
+  .content-box {
+    width: 85%;
+  }
+  .information {
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .content-box h1 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+  }
+  .team {
+    width: 26rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logoo {
+    width: 15.04rem;
+    height: 15rem;
+  }
+  .graphic {
+    height: 20rem;
+  }
+  .welcome {
+    font-size: 2.8rem;
+  }
+  .content-box {
+    width: 90%;
+  }
+  .information {
+    line-height: 1.3rem;
+    font-size: 1rem;
+  }
+  .information h1 {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .team-description {
+    font-size: 1rem;
+  }
+  .team {
+    width: 24rem;
+  }
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:46rem;
+}
+
+@media (max-width: 500px) {
+  canvas{
+    height: 37.5rem;
+  }
+}
+
+/* animation */
+
+
