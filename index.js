@@ -113,6 +113,11 @@ const newEvent = new NextEvent({
 
 // newEvent.save();
 
+app.use(function(req, res, next) {
+  res.locals.currentRoute = req.path;
+  next();
+});
+
 app.use("/iste", isteRouter);
 
 app.get("/login", (req, res) => {

@@ -20,15 +20,15 @@
         <li>
           <a href="/iste" id="logo"><img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png" alt="ISTELOGO" class="iste-logo"/><div class="hideInMini">ISTE MBU & SVEC</div></a> 
         </li>
-        <li class="lii hideInMini"><a class="ab" href="/iste">About us</a></li>
+        <li class="lii hideInMini"><a class="aa <%= (currentRoute === '/iste') ? 'ab' : '' %>" href="/iste">About us</a></li>
         <li class="lii hideInMini">
-          <a class="aa" href="/iste/events">Events</a>
+          <a class="aa <%= (currentRoute === '/iste/events') ? 'ab' : '' %>" href="/iste/events">Events</a>
         </li>
         <li class="lii hideInMini">
-          <a class="aa" href="/iste/team">Our Team</a>
+          <a class="aa <%= (currentRoute === '/iste/team') ? 'ab' : '' %>" href="/iste/team">Our Team</a>
         </li>
         <li class="lii hideInMini">
-          <a class="aa" href="/iste/gallery">Gallery</a>
+          <a class="aa <%= (currentRoute === '/iste/gallery') ? 'ab' : '' %>" href="/iste/gallery">Gallery</a>
         </li>
         <li class="lii hideInMini">
           <a class="aa" href="#contactus">Contact us</a>
@@ -45,10 +45,10 @@
         <li>
           <a href="/iste" id="logo"><img src="https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png" alt="ISTELOGO" class="iste-logo" />&nbsp;MBU & SVEC</a>
         </li>
-        <li class="lii"><a class="ab" href="/iste">About us</a></li>
-        <li class="lii"><a class="aa" href="/iste/events">Events</a></li>
-        <li class="lii"><a class="aa" href="/iste/team">Our Team</a></li>
-        <li class="lii"><a class="aa" href="/iste/gallery">Gallery</a></li>
+        <li class="lii"><a class="aa  <%= (currentRoute === '/iste') ? 'ab' : '' %>" href="/iste">About us</a></li>
+        <li class="lii"><a class="aa  <%= (currentRoute === '/iste/events') ? 'ab' : '' %>" href="/iste/events">Events</a></li>
+        <li class="lii"><a class="aa  <%= (currentRoute === '/iste/team') ? 'ab' : '' %>" href="/iste/team">Our Team</a></li>
+        <li class="lii"><a class="aa  <%= (currentRoute === '/iste/gallery') ? 'ab' : '' %>" href="/iste/gallery">Gallery</a></li>
         <li class="lii"><a class="aa" href="#contactus">Contact us</a></li>
       </ul>
     </div>
