@@ -21,8 +21,8 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 
 const mongoose = require("mongoose");
-const MONGO_URL = "mongodb://127.0.0.1:27017/iste";
-// const MONGO_URL = process.env.ATLASDB_URL;
+// const MONGO_URL = "mongodb://127.0.0.1:27017/iste";
+const MONGO_URL = process.env.ATLASDB_URL;
 
 
 const admin = require("./models/admin.js");
