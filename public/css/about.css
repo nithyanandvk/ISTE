@@ -76,7 +76,7 @@ html {
   height: 100%;
   pointer-events: none;
   animation: animateBackground 5s linear infinite;
-  background-image: url("https://res.cloudinary.com/dyb0gnw0d/image/upload/v1722779784/iste_xotnfr.png");
+  background-image: url("/photos/teamslogo/iste.png");
   background-size: cover;
   opacity: 0.8;
 }
