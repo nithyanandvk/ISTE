@@ -25,7 +25,7 @@ module.exports.advisors = [
 module.exports.mainMembers = [
   {
     name: "P Karthik",
-    url: "/photos/team/_p._karthik-.png",
+    url: "/photos/team/1534.jpg",
     role: "Chairperson",
     linkedin:
       "https://www.linkedin.com/in/parapu-karthik-278944289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -69,7 +69,7 @@ module.exports.mainMembers = [
 
   {
     name: "L Ramya",
-    url: "/photos/team/_ramya_lanka-",
+    url: "/photos/team/_ramya_lanka-.png",
     role: "Poster Lead",
     linkedin: "https://www.linkedin.com/in/ramya-lanka-041b07268/",
   },
