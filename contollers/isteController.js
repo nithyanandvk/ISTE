@@ -14,7 +14,7 @@ module.exports.events = async (req, res) => {
   // const videos=await YouTube.find({});
   const videos = await YouTube.find().sort({ createdAt: -1 });
   const nextevent = await NextEvent.find({});
-  const posters=await Poster.find({});
+  const posters=await Poster.find({}).sort({ createdAt: -1 });;
   // console.log(nextevent);
   // console.log(videos);
   res.render("events.ejs", { videos, nextevent ,posters});

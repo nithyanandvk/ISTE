@@ -24,7 +24,6 @@ const mongoose = require("mongoose");
 // const MONGO_URL = "mongodb://127.0.0.1:27017/iste";
 const MONGO_URL = process.env.ATLASDB_URL;
 
-
 const admin = require("./models/admin.js");
 
 const isteRouter = require("./routes/iste.js");
@@ -89,10 +88,10 @@ passport.use(new LocalStrategy(admin.authenticate()));
 passport.serializeUser(admin.serializeUser());
 passport.deserializeUser(admin.deserializeUser());
 
-const multer = require("multer");
-const { storage } = require("./cloudConfig.js");
-const { url } = require("inspector");
-const upload = multer({ storage });
+
+const { imagekit,upload,compressImage } = require("./cloudConfig.js");
+
+
 
 app.use((req, res, next) => {
   res.locals.success = req.flash("success");
@@ -159,9 +158,22 @@ app.post(
   upload.single("poster[image]"),
   validatePoster,
   wrapAsync(async (req, res, next) => {
-    const poster=new Poster({image:{url:req.file.path,filename:req.file.originalname}});
+    const compressedBuffer = await compressImage(req.file.buffer);
+    const result = await imagekit.upload({
+      file: compressedBuffer.toString('base64'), 
+      fileName: req.file.originalname, 
+      folder: '/posters', 
+    });
+    req.file.imageKitResult = result;
+    const poster = new Poster({
+      image: {
+        url: result.url,
+        filename: req.file.originalname,
+      }
+    });
+
     await poster.save();
-    res.redirect("/addPoster");
+    res.redirect("/iste/events");
   })
 );
 
@@ -185,14 +197,19 @@ app.put(
     // const nextEvent = req.body;
     // console.log(nextEvent);
     // const event = await NextEvent.find({ _id: "6696a0b4b944aa84f1f04266" });
+    const result = await imagekit.upload({
+      file: req.file.buffer, 
+      fileName: req.file.originalname, 
+      folder: '/next', 
+    });
 
     let id = "6696a0b4b944aa84f1f04266";
     let nextEvent = await NextEvent.findByIdAndUpdate(id, {
       ...req.body.nextEvent,
     });
     await nextEvent.save();
-    let url = req.file.path;
-    let filename = req.file.filename;
+    let url = result.url;
+    let filename = req.file.originalname;
     nextEvent.image = { url, filename };
     await nextEvent.save();
     res.redirect("/iste/events");

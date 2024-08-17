@@ -6,6 +6,7 @@ const posterSchema=new Schema({
         url: String,
         filename: String,
     },
+    createdAt: { type: Date, default: Date.now }
 });
 
 const Poster=mongoose.model("Poster",posterSchema);
