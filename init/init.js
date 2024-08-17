@@ -25,7 +25,7 @@ const initGallery = async () => {
   console.log("gallery was initialized");
 };
 
-// initGallery();
+initGallery();
 
 const initAdvisors = async () => {
   await Advisor.deleteMany({});  

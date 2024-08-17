@@ -27,16 +27,16 @@ const galleryImages = [
     url: "/photos/gallery/g27.jpg",
   },
   {
-    url: "/photos/gallery/g26.jpg",
+    url: "/photos/gallery/g66.jpg",
   },
   {
     url: "/photos/gallery/g65.jpg",
   },
   {
-    url: "/photos/gallery/g66.jpg",
+    url: "/photos/gallery/g67.jpg",
   },
   {
-    url: "/photos/gallery/g67.jpg",
+    url: "/photos/gallery/g26.jpg",
   },
   {
     url: "/photos/gallery/g23.jpg",
@@ -99,7 +99,7 @@ const galleryImages = [
     url: "/photos/gallery/g41.jpg",
   },
   {
-    url: "/photos/gallery2/g43.jpg",
+    url: "/photos/gallery/g43.jpg",
   },
   {
     url: "/photos/gallery/g44.jpg",
@@ -154,4 +154,4 @@ const galleryImages = [
   },
 ];
 
-module.exports=galleryImages;
+module.exports = galleryImages;
