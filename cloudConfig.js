@@ -31,8 +31,8 @@ const sharp = require("sharp");
 
 
 const imagekit = new ImageKit({
-  publicKey: "public_RXl+mwr+SMLQts8rbHFSP3bK4Uo=",
-  privateKey: "private_IB1lYm5lgKN3J2lKDrOP7MjPQ68=",
+  publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
+  privateKey: process.env.IMAGEKIT_PRIVATE_KEY,
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
   authenticationEndpoint: "http://www.yourserver.com/auth",
 });
