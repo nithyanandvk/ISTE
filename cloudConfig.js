@@ -22,16 +22,19 @@
 
 
 
-const ImageKit = require('imagekit');
-const multer = require('multer');
-const sharp = require('sharp');
+const ImageKit = require("imagekit");
+const multer = require("multer");
+const sharp = require("sharp");
+
+
+
 
 
 const imagekit = new ImageKit({
   publicKey: "public_RXl+mwr+SMLQts8rbHFSP3bK4Uo=",
   privateKey: "private_IB1lYm5lgKN3J2lKDrOP7MjPQ68=",
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
-  authenticationEndpoint:"http://www.yourserver.com/auth",
+  authenticationEndpoint: "http://www.yourserver.com/auth",
 });
 
 const compressImage = async (buffer) => {
@@ -41,7 +44,7 @@ const compressImage = async (buffer) => {
 };
 
 
-const storage = multer.memoryStorage(); 
+const storage = multer.memoryStorage();
 
 const fileFilter = (req, file, cb) => {
   if (file.mimetype === 'image/png' || file.mimetype === 'image/jpg' || file.mimetype === 'image/jpeg') {
@@ -51,7 +54,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-const upload = multer({ 
+const upload = multer({
   storage: storage,
   fileFilter: fileFilter,
 });
