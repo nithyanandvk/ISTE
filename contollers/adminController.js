@@ -2,7 +2,7 @@ const YouTube = require("../models/youtube.js");
 const Poster = require("../models/poster.js");
 const NextEvent = require("../models/nextEvent.js");
 
-const { imagekit,compressImage } = require("../cloudConfig.js");
+const { imagekit } = require("../cloudConfig.js");
 
 
 module.exports.getLoginForm = (req, res) => {
@@ -19,12 +19,12 @@ module.exports.getPosterForm = (req, res) => {
 };
 
 module.exports.submitPoster = async (req, res, next) => {
-  const compressedBuffer = await compressImage(req.file.buffer);
   const result = await imagekit.upload({
-    file: compressedBuffer.toString('base64'),
+    file: req.file.buffer,
     fileName: req.file.originalname,
     folder: '/posters',
   });
+  
   req.file.imageKitResult = result;
   const poster = new Poster({
     image: {
@@ -63,11 +63,11 @@ module.exports.submitNextEvent = async (req, res, next) => {
   res.redirect("/iste/events");
 };
 
-module.exports.getYouTubeForm=(req, res) => {
+module.exports.getYouTubeForm = (req, res) => {
   res.render("youtube.ejs");
 };
 
-module.exports.submitYouTube=async (req, res, next) => {
+module.exports.submitYouTube = async (req, res, next) => {
   const newLink = new YouTube(req.body.youtube);
   await newLink.save();
   res.redirect("/iste/events");

@@ -24,11 +24,6 @@
 
 const ImageKit = require("imagekit");
 const multer = require("multer");
-const sharp = require("sharp");
-
-
-
-
 
 const imagekit = new ImageKit({
   publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
@@ -36,13 +31,6 @@ const imagekit = new ImageKit({
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
   authenticationEndpoint: "http://www.yourserver.com/auth",
 });
-
-const compressImage = async (buffer) => {
-  return await sharp(buffer)
-    .jpeg({ quality: 80 })   // Compress to JPEG with 80% quality
-    .toBuffer();
-};
-
 
 const storage = multer.memoryStorage();
 
@@ -62,5 +50,4 @@ const upload = multer({
 module.exports = {
   imagekit,
   upload,
-  compressImage
 };
