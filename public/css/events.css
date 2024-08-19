@@ -1,18 +1,17 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
-    sans-serif;
 }
 
 body {
-  background-color: #e6f7ff;
+  background-color: #e6e8f0;
+  font-family: "Montserrat",sans-serif !important;
 }
 
 .title h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
-  color: #1f3a93;
+  color: #1c1f4a;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -24,6 +23,7 @@ marquee img {
   width: 30rem;
   height: 20rem;
   margin: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .myCarousel {
@@ -103,6 +103,7 @@ marquee img {
 .next-poster img {
   height: 90%;
   width: 70%;
+  border-radius: 1rem;
 }
 .upcoming .register {
   height: 100%;
@@ -110,13 +111,13 @@ marquee img {
   margin-right: 2%;
   margin-top: 3rem;
 }
-.register h2 {
-  color: #1f3a93;
+.register h1 {
+  color: #1c1f4a;
   text-align: center;
 }
 .upcoming .button {
   all: unset;
-  background-color: #1f3a93;
+  background-color: #1c1f4a;
   width: 15rem;
   height: 4rem;
   display: flex;
@@ -130,7 +131,10 @@ marquee img {
 }
 
 .button:hover {
-  box-shadow: 3px 3px 10px #3a4fbd;
+  transition:0.2s ease;
+  color:#1c1f4a;
+  border: 2px solid #1c1f4a;
+  background-color: white;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -175,7 +179,7 @@ marquee img {
     font-size: 1.2rem;
   }
   .upcoming {
-    height: 33rem;
+    height: 36rem;
     width: 100%;
   }
   .next-poster {
@@ -186,7 +190,7 @@ marquee img {
     width: 19rem;
   }
   .upcoming .register {
-    height: 18rem;
+
     width: 96%;
     margin: 2%;
     margin-bottom: 1rem;
@@ -200,4 +204,25 @@ marquee img {
     height: 14rem;
     margin: 0.25rem;
   }
+}
+
+.date{
+  height:7rem;
+  width:7rem;
+  border-radius: 50%;
+  background-color: #ffd700;
+  color:#1c1f4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5rem;
+}
+
+.spot{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.upcoming h2{
+  font-size: 1.2rem;
 }

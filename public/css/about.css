@@ -1,16 +1,72 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
-    sans-serif;
-  
 }
 
 body {
-  background-color: #e6f7ff;
+  background-color: #e6e8f0;
   width: 100%;
   /* background: linear-gradient(to right, #E6F7FF, #AFCBFF); */
   color: #333333;
+  font-family: "Montserrat",sans-serif !important;
+}
+
+.arrow a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.arrow {
+  text-align: center;
+  margin-top: 3%;
+}
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.arrowP a {
+  color: #1c1f4a;
+  text-decoration: none;
+  font-size: 30px;
+}
+.arrowP {
+  text-align: center;
+  margin-top: -5% !important;
+}
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-25px);
+  }
 }
 
 html {
@@ -20,16 +76,19 @@ html {
 .welcome {
   text-align: center;
   font-size: 4rem;
-  color: #1f3a93;
-  animation: fade 1s ease 1s;
+  color: #342e6e;
+  animation: fadeInUp 2s ease-in-out;  
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(40px);
   }
-  100% {
-    opacity: 1;
+  to {
+      opacity: 1;
+      transform: translateY(0);
   }
 }
 
@@ -49,14 +108,13 @@ html {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  min-height: 100vh;
 }
 
 .info {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .graphic {
@@ -67,15 +125,15 @@ html {
   height: 34rem;
 }
 .logoo {
-  width: 27.05rem;
-  height: 27rem;
+  width: 26.9%;
+  height: 75%;
 }
 
 .animated-background {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  animation: animateBackground 5s linear infinite;
+  animation: animateBackground 2s linear infinite;
   background-image: url("/photos/teamslogo/iste.png");
   background-size: cover;
   opacity: 0.8;
@@ -86,7 +144,7 @@ html {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);
@@ -104,14 +162,15 @@ html {
 
 .content-box {
   margin-top: 2rem;
-  background-color: #f5f5dc;
+  /* background-color: #f5f5dc;
   background-color: #e6e6fa;
-  background: linear-gradient(to right, #d4e4f7, #afcbff);
+  background: linear-gradient(to right, #d4e4f7, #afcbff); */
+  background-color: white;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3%;
-  border-radius: 3rem;
+  border-radius: 0.7rem;
 }
 .content-box h1 {
   font-size: 3rem;
@@ -121,7 +180,7 @@ html {
   width: 90%;
   padding: 5%;
   padding-top: 2%;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   font-size: 1.3rem;
   padding-bottom: 0;
   color: #333333;
@@ -130,13 +189,13 @@ html {
 
 .view {
   all: unset;
-  background-color: #1f3a93;
+  background-color: #1c1f4a;
   width: 15rem;
   height: 4rem;
   color: white;
   font-size: 1.4rem;
   font-weight: 550;
-  border-radius: 2rem;
+  border-radius: 0.7rem;
   text-align: center;
 }
 .but {
@@ -182,7 +241,7 @@ html {
   margin-top: 1rem;
   padding: 0.8rem;
   font-size: 1.6rem;
-  background-color: #1f3a93;
+  background-color: #1c1f4a;
   border-radius: 2rem;
   color: white;
   font-weight: 550;
@@ -190,22 +249,27 @@ html {
   transition: box-shadow 0.2s ease;
 }
 
+
 .direct:hover {
-  box-shadow: 1px 1px 5px #3a4fbd;
   transform: scale(1.1);
   cursor: pointer;
+  transition:0.2s ease;
+  color:#1c1f4a;
+  border: 2px solid #1c1f4a;
+  background-color: white;
 }
+
 .team {
   width: 26rem;
-  background-color: #fff9e6;
-  background-color: #fbe5e5;
+  background-color: #f0f1f5;
   margin: 1rem;
-  border-radius: 5%;
+  border-radius: 0.7rem;
 }
 
 .team:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   transform: scale(1.05);
+  transition: 0.3s ease;
 }
 
 .team-image {

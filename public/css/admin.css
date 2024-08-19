@@ -1,13 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
-    sans-serif;
   /* overflow: hidden; */
 }
 
 body {
-  background-color: #e6f7ff;
+  background-color: #e6e8f0;
+  font-family: "Montserrat",sans-serif !important;
 }
 
 .opening {

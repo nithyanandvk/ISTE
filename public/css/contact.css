@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Tahoma, sans-serif, "Times New Roman", Arial, Helvetica,
-    sans-serif;
+}
+
+body{
+  font-family: "Montserrat",sans-serif !important;
 }
 #contactus {
   width: 100%;
-  background-color: black !important;
+  background-color: #1c1f4a !important;
 }
 
 .iste-footer {
@@ -56,7 +58,6 @@
 
 .heading {
   margin-top: 1rem;
-  opacity: 0.8;
   margin-bottom: 1rem;
   margin-right: 0.5rem;
   font-size: 1.2rem;
@@ -69,10 +70,10 @@
   font-weight: bold !important;
 }
 
-.heading:hover,
+/* .heading:hover,
 .address h4:hover {
   opacity: 1;
-}
+} */
 .footer-2 ul {
   list-style: none;
 }
@@ -80,6 +81,7 @@
   padding-bottom: 0.8rem;
   font-size: 1.1rem;
   opacity: 0.8;
+  color:#d3d3d3;
 }
 .footer-2 ul a {
   text-decoration: none;
@@ -98,11 +100,12 @@
 }
 
 .box {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 }
 
 .ids i {
@@ -112,19 +115,19 @@
 
 .mail:hover {
   opacity: 1;
-  background-color: #ff0000;
+  background-image: linear-gradient(45deg, #4a90e2,#9013fe);
 }
 .linkedin:hover {
   opacity: 1;
-  background-color: #0077b5;
+  background-image: linear-gradient(45deg, #0077b5, #00b3b3);
 }
 .insta:hover {
   opacity: 1;
-  background-color: #e1306c;
+  background-image: linear-gradient(45deg, #fd1d1d, #fcb045);
 }
 .yt:hover {
   opacity: 1;
-  background-color: #ff0000;
+  background-image: linear-gradient(45deg, #ff0000, #e52d27);
 }
 
 .copy {

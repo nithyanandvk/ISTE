@@ -13,18 +13,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <%- include("./includes/nav.ejs") %>
     <%- include("./includes/cursor.ejs") %>
-    <div class="title opening"><h1>RECENT EVENTS...</h1></div>
-    <marquee behavior="scroll" direction="left" scrollamount="25">
-      <% for(poster of posters){ %>
-      <img src="<%= poster.image.url %>" alt="" />
-      <% } %> 
-    </marquee>
 
-    <div class="title"><h1>UPCOMING EVENT</h1></div>
+    
+    <div class="title opening"><h1>Upcoming Event</h1></div>
     <% for(let event of nextevent) { %>
 
     <div class="upcoming">
@@ -32,13 +29,19 @@
         <img src=<%= event.image.url%> alt="" />
       </div>
       <div class="register">
-        <h2><%= event.title %></h2>
+        <h1><%= event.title %></h1>
         <br />
-        <h4>
-          Date : <%= event.date %> <br />
-          Time : <%= event.time %> <br />
-          <%= event.description %>
-        </h4>
+      <div class="spot">
+        <div class="date">
+          <h3><%= event.date %></h3>
+        </div>
+        <h2>
+          <br>
+          Time : <%= event.time %> <br /> 
+          Venue : Dasari Auditorium         
+        </h2>
+      </div>
+      <h3><%= event.description %></h3>
         <br />
         <form action=<%= event.link %>>
           <button class="button">Register Now</button>
@@ -47,12 +50,17 @@
       <% } %>
     </div>
     <br>
-
-
     
+    <div class="title"><h1>Recent Events...</h1></div>
+    <marquee behavior="scroll" direction="left" scrollamount="20" onmouseover="this.stop();" onmouseout="this.start();">
+      <% for(poster of posters){ %>
+      <img src="<%= poster.image.url %>" alt="" />
+      <% } %> 
+    </marquee>
 
 
-    <div class="title"><h1>YOUTUBE VIDEOS</h1></div>
+
+    <div class="title"><h1>Youtube Videos</h1></div>
     <div class="myCarousel">
       <div class="carousel">
         <div class="container">

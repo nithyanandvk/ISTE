@@ -51,7 +51,7 @@ function drawStars() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     ctx.globalAlpha = 0.7;
-    ctx.fillStyle = '#1f3a93';
+    ctx.fillStyle = '#1c1f4a';
 
     stars.forEach(star => {
         ctx.beginPath();
