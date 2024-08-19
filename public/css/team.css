@@ -57,7 +57,7 @@ body {
 .tnav:hover{
   transition:0.2s ease;
   color:#1c1f4a;
-  border: 2px solid #1c1f4a;
+  border: 1px solid #1c1f4a;
   background-color: white;
 }
 
@@ -149,6 +149,7 @@ body {
 .main-body .co{
   height: 20rem;
   width: 15rem;
+  margin: 1rem 1rem;
 }
 
 .main-body .co:hover .t-img{
@@ -166,7 +167,8 @@ body {
 @media(max-width:640px){
   .main-body .team-div,.main-body .co{
     height: 13rem;
-    width: 9rem;
+    width: 9rem;  
+    margin: 1rem 1rem;  
   }
   
   .main-body .team-div:hover .t-img{
