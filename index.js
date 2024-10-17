@@ -89,7 +89,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use("/iste", isteRouter);
+app.use("/", isteRouter);
 app.use("/",adminRouter);
 
 app.all("*", (req, res, next) => {

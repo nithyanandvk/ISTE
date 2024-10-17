@@ -23,6 +23,10 @@ const nextEventSchema = new Schema({
     type: String,
     required: true,
   },
+  venue: {
+    type: String,
+    required: true,
+  },
 });
 
 const NextEvent = mongoose.model("NextEvent", nextEventSchema);

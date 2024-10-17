@@ -12,8 +12,10 @@
     />
     <link rel="icon" href="/photos/teamslogo/iste.png" />
     <link rel="stylesheet" href="/css/admin.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <%- include('includes/nav.ejs') %>
   <body>
@@ -45,7 +47,7 @@
               <input
                 name="nextEvent[date]"
                 class="form-control"
-                placeholder="DD-MM-YYYY"
+                placeholder="13 Aug"
                 required
               />
             </div>
@@ -70,6 +72,17 @@
               placeholder="20 to 25 words description only"
               required
             ></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="venue" class="form-label">Venue</label>
+            <input
+              name="nextEvent[venue]"
+              class="form-control"
+              placeholder="Room Number : 332"
+              type="text"
+              required
+            ></input>
           </div>
 
           <div class="mb-3">

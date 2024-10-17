@@ -8,7 +8,7 @@ body {
   width: 100%;
   /* background: linear-gradient(to right, #E6F7FF, #AFCBFF); */
   color: #333333;
-  font-family: "Montserrat",sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .arrow a {
@@ -77,18 +77,17 @@ html {
   text-align: center;
   font-size: 4rem;
   color: #342e6e;
-  animation: fadeInUp 2s ease-in-out;  
+  animation: fadeInUp 2s ease-in-out;
 }
-
 
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(40px);
+    opacity: 0;
+    transform: translateY(40px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -108,7 +107,7 @@ html {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;  
+  min-height: 100vh;
 }
 
 .info {
@@ -125,8 +124,8 @@ html {
   height: 34rem;
 }
 .logoo {
-  width: 26.9%;
-  height: 75%;
+  width: 25.05rem;
+  height: 25rem;
 }
 
 .animated-background {
@@ -249,12 +248,11 @@ html {
   transition: box-shadow 0.2s ease;
 }
 
-
 .direct:hover {
   transform: scale(1.1);
   cursor: pointer;
-  transition:0.2s ease;
-  color:#1c1f4a;
+  transition: 0.2s ease;
+  color: #1c1f4a;
   border: 2px solid #1c1f4a;
   background-color: white;
 }
@@ -299,7 +297,7 @@ html {
 }
 
 @media (max-width: 1080px) {
-  .top{
+  .top {
     justify-content: space-around;
   }
   .logoo {
@@ -344,8 +342,8 @@ html {
   }
 }
 
-@media (max-width: 400px) {
-  .top{
+@media (max-width: 500px) {
+  .top {
     justify-content: space-around;
   }
   .logoo {
@@ -356,7 +354,7 @@ html {
     height: 20rem;
   }
   .welcome {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .content-box {
     width: 90%;
@@ -401,8 +399,4 @@ canvas {
   min-height: 100vh;
 }
 
-
-
 /* animation */
-
-

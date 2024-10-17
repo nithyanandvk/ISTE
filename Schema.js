@@ -14,6 +14,7 @@ module.exports.nextEventSchema = Joi.object({
     description: Joi.string().required(),
     image: Joi.string().allow("", null),
     link: Joi.string().required(),
+    venue: Joi.string().required(),
   }).required(),
 });
 

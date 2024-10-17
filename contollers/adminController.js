@@ -34,7 +34,7 @@ module.exports.submitPoster = async (req, res, next) => {
   });
 
   await poster.save();
-  res.redirect("/iste/events");
+  res.redirect("/events");
 };
 
 module.exports.getNextEventForm = (req, res) => {
@@ -60,7 +60,7 @@ module.exports.submitNextEvent = async (req, res, next) => {
   let filename = req.file.originalname;
   nextEvent.image = { url, filename };
   await nextEvent.save();
-  res.redirect("/iste/events");
+  res.redirect("/events");
 };
 
 module.exports.getYouTubeForm = (req, res) => {
@@ -70,7 +70,7 @@ module.exports.getYouTubeForm = (req, res) => {
 module.exports.submitYouTube = async (req, res, next) => {
   const newLink = new YouTube(req.body.youtube);
   await newLink.save();
-  res.redirect("/iste/events");
+  res.redirect("/events");
 };
 
 const newEvent = new NextEvent({
@@ -82,6 +82,7 @@ const newEvent = new NextEvent({
   link: "https://docs.google.com/forms/d/e/1FAIpQLSdRZlWsNFMudw09vMzH5ydJERfMqDvXLHnBbU3hYEi9f-UCZA/closedform?pli=1",
   date: "2024-07-20",
   time: "10:00 AM",
+  venue:"MNS"
 });
 
 // newEvent.save();
