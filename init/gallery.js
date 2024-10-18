@@ -152,6 +152,12 @@ const galleryImages = [
   {
     url: "/photos/gallery/g64.jpg",
   },
+  {
+    url: "/photos/gallery/gg1.jpg",
+  },
+  {
+    url: "/photos/gallery/gg2.jpg",
+  },
 ];
 
 module.exports = galleryImages;
