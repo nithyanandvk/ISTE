@@ -63,6 +63,12 @@ module.exports.mainMembers = [
     linkedin: "https://www.linkedin.com/in/vishnu-chandrapati-a95a7526a/",
   },
   {
+    name: "Guvvala Sudheer",
+    url: "/photos/uniform/Sudheer.jpg",
+    role: "Mechanical Executive",
+    linkedin: "/team",
+  },
+  {
     name: "Dara Harini",
     url: "/photos/team/harinid.png",
     role: "Documentation Lead",
@@ -118,12 +124,7 @@ module.exports.mainMembers = [
     role: "CSE Specializations Executive",
     linkedin: "http://www.linkedin.com/in/sreenuja-chakala-382994283",
   },
-  {
-    name: "Guvvala Sudheer",
-    url: "/photos/uniform/Sudheer.jpg",
-    role: "Mechanical Executive",
-    linkedin: "/team",
-  },
+  
   {
     name: "P Madhav Chowdary",
     url: "/photos/team/madhav.png",
