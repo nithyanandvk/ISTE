@@ -119,6 +119,12 @@ module.exports.mainMembers = [
     linkedin: "http://www.linkedin.com/in/sreenuja-chakala-382994283",
   },
   {
+    name: "Guvvala Sudheer",
+    url: "/photos/uniform/Sudheer.jpg",
+    role: "Mechanical Executive",
+    linkedin: "/team",
+  },
+  {
     name: "P Madhav Chowdary",
     url: "/photos/team/madhav.png",
     role: "CSSE Executive",
@@ -333,12 +339,7 @@ module.exports.coordinators = [
     role: "Social Media Team",
     linkedin: "/team",
   },
-  {
-    name: "name",
-    url: "/photos/uniform/Sudheer.jpg",
-    role: "team",
-    linkedin: "/team",
-  },
+  
 
   {
     name: "name",
