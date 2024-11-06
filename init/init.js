@@ -6,8 +6,6 @@ const {Advisor} = require("../models/advisor.js");
 const {Main} = require("../models/advisor.js");
 const {Coordinator} = require("../models/advisor.js");
 
-console.log(process.env.MONGO_URL);
-
 // const MONGO_URL = "mongodb://127.0.0.1:27017/iste";
 const MONGO_URL="mongodb+srv://istesvecchamps:istechampsMbuSvec@cluster0.1zz4sd4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 main()
