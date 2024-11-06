@@ -4,7 +4,11 @@ if (process.env.NODE_ENV != "production") {
 
 const express = require("express");
 const app = express();
+<<<<<<< HEAD
 const port = 3002;
+=======
+const port = 3000 || 3002;
+>>>>>>> a974c50e470fce7842e2ee40093a59f1fc7d0965
 
 const path = require("path");
 const methodOverride = require("method-override");
