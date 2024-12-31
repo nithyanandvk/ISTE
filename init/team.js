@@ -19,14 +19,12 @@ module.exports.advisors = [
     linkedin:
       "https://www.linkedin.com/in/sireesha-salla-9a5489245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-
   {
     name: "P Aswini",
     url: "/photos/uniform/Aswini.png",
     role: "Advisor",
     linkedin: "https://www.linkedin.com/in/aswini-poojari-269r4375/",
   },
-
   {
     name: "Umar Shaik",
     url: "/photos/uniform/Umar.png",
@@ -160,6 +158,21 @@ module.exports.mainMembers = [
   },
 
   {
+    name: "G Satya Gnapika",
+    url: "/photos/uniform/G.SatyaGnapika-2101A030114-ECE.jpg",
+    role: "Chair Person",
+    linkedin:
+      "https://www.linkedin.com/in/satya-gnapika-79432a300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+
+  {
+    name: "Bharath Kumar Perugu",
+    url: "/photos/uniform/BharathKumarPerugu-22101A010127-AIML.jpg",
+    role: "Secretary",
+    linkedin: "https://www.linkedin.com/in/bharath-kuma-perugu-46069424b",
+  },
+
+  {
     name: "Allam Gowri Shankar",
     url: "/photos/uniform/AllamGowriShankar-22101A010003-AIML.jpg",
     role: "Documentation Team Lead",
@@ -172,27 +185,20 @@ module.exports.mainMembers = [
     role: "Web Team Lead",
     linkedin: "https://www.linkedin.com/in/nithyanandvk",
   },
+
   {
     name: "T Venkata Srikala",
     url: "/photos/uniform/T.VenkataSrikala-22102A041106-CSE.jpg",
-    role: "Scheduling Team",
+    role: "Scheduling Team Lead",
     linkedin:
       "https://www.linkedin.com/in/srikala-venkata-thupakula-0a948b2a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 
   {
-    name: "G Satya Gnapika",
-    url: "/photos/uniform/G.SatyaGnapika-2101A030114-ECE.jpg",
-    role: "Poster Team Lead",
-    linkedin:
-      "https://www.linkedin.com/in/satya-gnapika-79432a300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-
-  {
-    name: "Damarla Pavan",
-    url: "/photos/uniform/DamarlaPavan-22101A010045-AIML.jpg",
-    role: "Management Team Lead",
-    linkedin: "https://www.linkedin.com/in/pavan-damarla-598507255",
+    name: "M Likitha",
+    url: "/photos/uniform/M.Likitha-22102A040152-CSE.jpg",
+    role: "Scheduling Team Lead",
+    linkedin: "https://www.linkedin.com/in/likitha-naidu-likitha-8031b9289",
   },
 
   {
@@ -203,17 +209,62 @@ module.exports.mainMembers = [
   },
 
   {
-    name: "Malla Kiran Kumar",
-    url: "/photos/uniform/MallaKiranKumar-22102A040908-CSE.jpg",
-    role: "Social Media Lead",
-    linkedin: "http://www.linkedin.com/in/kiran-kumar-94615529a",
-  },
-  {
-    name: "S L Punith",
-    url: "/photos/uniform/Punith-removebg-preview.png",
+    name: "Lakshmi Priya",
+    url: "/photos/uniform/VLakshmiPriya-22102A041136-CSE.jpg",
     role: "Social Media Lead",
     linkedin:
-      "https://www.linkedin.com/in/punith-s-l-801198258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/lakshmi-priya-vudumala-923a5a285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+
+
+  {
+    name: "D Raja kullayappa",
+    url: "/photos/uniform/Raja.jpg",
+    role: "Social Media Lead",
+    linkedin: "https://www.linkedin.com/in/d-raja-kullayappa-6a86432ba/",
+  },
+  {
+    name: "Malla Kiran Kumar",
+    url: "/photos/uniform/MallaKiranKumar-22102A040908-CSE.jpg",
+    role: "Poster Team Lead",
+    linkedin: "http://www.linkedin.com/in/kiran-kumar-94615529a",
+  },
+
+
+  {
+    name: "Vaishnavi Natla",
+    url: "/photos/uniform/N.Vaishnavi-22102A040188-CSE.jpg",
+    role: "Drafting Team Lead",
+    linkedin:
+      "https://www.linkedin.com/in/vaishnavi-natla-164b77279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+
+  {
+    name: "P Sri Guru Lasya",
+    url: "/photos/uniform/Lasya.png",
+    role: "Drafting Team Lead",
+    linkedin: "https://www.linkedin.com/in/lasya-reddy-9aa6b1311/",
+  },
+
+  {
+    name: "Gayam Srinivasa Reddy",
+    url: "/photos/uniform/srinivas.png",
+    role: "Management Team Lead",
+    linkedin: "https://www.linkedin.com/in/gayam-srinivasa-reddy-435a80288/",
+  },
+
+  {
+    name: "Mohamad Arshia Nooraien",
+    url: "/photos/uniform/MohamadArshiaNooraien-22102A040534-CSE.jpg",
+    role: "Management Team Lead",
+    linkedin: "http://www.linkedin.com/in/arshia-nooraien-m",
+  },
+
+  {
+    name: "Reddy Tejaswari",
+    url: "/photos/uniform/ReddyTejaswari-22102A040403-CSE.jpg",
+    role: "CSE Executive",
+    linkedin: "https://www.linkedin.com/in/reddy-tejaswari-konduru-7bb9982a5",
   },
 
   {
@@ -223,18 +274,14 @@ module.exports.mainMembers = [
     linkedin:
       "https://www.linkedin.com/in/sai-ram-2aa3b3251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
+
   {
-    name: "Reddy Tejaswari",
-    url: "/photos/uniform/ReddyTejaswari-22102A040403-CSE.jpg",
-    role: "CSE Executive",
-    linkedin: "https://www.linkedin.com/in/reddy-tejaswari-konduru-7bb9982a5",
+    name: "Damarla Pavan",
+    url: "/photos/uniform/DamarlaPavan-22101A010045-AIML.jpg",
+    role: "CSE Specializations Executive",
+    linkedin: "https://www.linkedin.com/in/pavan-damarla-598507255",
   },
-  {
-    name: "Bharath Kumar Perugu",
-    url: "/photos/uniform/BharathKumarPerugu-22101A010127-AIML.jpg",
-    role: "AIML Executive",
-    linkedin: "https://www.linkedin.com/in/bharath-kuma-perugu-46069424b",
-  },
+
   {
     name: "Karimunnisa S K",
     url: "/photos/uniform/KarimunnisaSK-22102A020054-CS.jpg",
@@ -261,6 +308,14 @@ module.exports.mainMembers = [
     linkedin:
       "https://www.linkedin.com/in/lokesh-goud-961896288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
+
+  {
+    name: "G Balaji",
+    url: "/photos/uniform/BalajiEee.jpg",
+    role: "EEE Executive",
+    linkedin: "https://www.linkedin.com/in/gummanuru-balaji-6041a632a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+
   {
     name: "G Dhananjaya Reddy",
     url: "/photos/uniform/GangalapuliDhananjayaReddy-22101A050009-mech.jpg",
@@ -341,23 +396,24 @@ module.exports.coordinators = [
     role: "Coordinator",
     linkedin: "/team",
   },
-
   {
     name: "M Thanishka Reddy",
     url: "/photos/uniform/ThanishkaReddy.jpg",
     role: "Drafting",
     linkedin: "https://www.linkedin.com/in/mukthapuram-thanishka-reddy-b32aa0320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-
-
+  {
+    name: "V Satwik Yadav",
+    url: "/photos/uniform/VSatwikYadav-22102A040281-CSE.jpg",
+    role: "Web Development Team",
+    linkedin: "https://www.linkedin.com/in/satwikyadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
   {
     name: "K Nikhitha Reddy",
     url: "/photos/uniform/K.NikhithaReddy-22101A010467-AIML.jpg",
     role: "Poster Team",
     linkedin: "https://www.linkedin.com/in/nikhithareddy27",
   },
-
-
   {
     name: "S Sree Manvitha",
     url: "/photos/uniform/SSreeManitha-22101A040035-EIE.jpg",
@@ -376,43 +432,14 @@ module.exports.coordinators = [
     role: "Drafting Team",
     linkedin: "https://www.linkedin.com/in/swapna-reddy-5878022b7/",
   },
-
   {
     name: "Korada Manmohana Sai",
     url: "/photos/uniform/K.ManmohanSai-22102A040879-CSE.jpg",
     role: "Drafting Team",
     linkedin: "https://www.linkedin.com/in/korada-manmohanasai-d20042005",
   },
-  {
-    name: "Vaishnavi Natla",
-    url: "/photos/uniform/N.Vaishnavi-22102A040188-CSE.jpg",
-    role: "Drafting Team",
-    linkedin:
-      "https://www.linkedin.com/in/vaishnavi-natla-164b77279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-
-  {
-    name: "M Likitha",
-    url: "/photos/uniform/M.Likitha-22102A040152-CSE.jpg",
-    role: "Drafting Team",
-    linkedin: "https://www.linkedin.com/in/likitha-naidu-likitha-8031b9289",
-  },
 
 
-  {
-    name: "P Sri Guru Lasya",
-    url: "/photos/uniform/Lasya.png",
-    role: "Drafting Team",
-    linkedin: "https://www.linkedin.com/in/lasya-reddy-9aa6b1311/",
-  },
-
-
-  {
-    name: "V Satwik Yadav",
-    url: "/photos/uniform/VSatwikYadav-22102A040281-CSE.jpg",
-    role: "Web Development Team",
-    linkedin: "https://www.linkedin.com/in/satwikyadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
 
   {
     name: "Prabhu Das Mannipudi",
@@ -420,8 +447,13 @@ module.exports.coordinators = [
     role: "Documentation Team",
     linkedin: "https://www.linkedin.com/in/prabhu98",
   },
-
-
+  {
+    name: "S L Punith",
+    url: "/photos/uniform/Punith-removebg-preview.png",
+    role: "Documentation team",
+    linkedin:
+      "https://www.linkedin.com/in/punith-s-l-801198258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
   {
     name: "P Balaji",
@@ -464,14 +496,6 @@ module.exports.coordinators = [
     linkedin:
       "https://www.linkedin.com/in/rishitha-sree-886625290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-
-  {
-    name: "Gayam Srinivasa Reddy",
-    url: "/photos/uniform/srinivas.png",
-    role: "Management Team",
-    linkedin: "https://www.linkedin.com/in/gayam-srinivasa-reddy-435a80288/",
-  },
-
   {
     name: "S Likhitha",
     url: "/photos/uniform/likitha.jpg",
@@ -507,14 +531,6 @@ module.exports.coordinators = [
     linkedin:
       "https://www.linkedin.com/in/divyasri-sowjanya-786542289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-  {
-    name: "Lakshmi Priya",
-    url: "/photos/uniform/VLakshmiPriya-22102A041136-CSE.jpg",
-    role: "Scheduling Team",
-    linkedin:
-      "https://www.linkedin.com/in/lakshmi-priya-vudumala-923a5a285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-
 
   {
     name: "S Reddy Tirumalesh Reddy",
@@ -528,12 +544,6 @@ module.exports.coordinators = [
     url: "/photos/uniform/Abhinandhan.jpg",
     role: "Social Media Team",
     linkedin: "/team",
-  },
-  {
-    name: "G Balaji",
-    url: "/photos/uniform/BalajiEee.jpg",
-    role: "Poster Team",
-    linkedin: "https://www.linkedin.com/in/gummanuru-balaji-6041a632a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 
   {
@@ -587,25 +597,12 @@ module.exports.coordinators = [
     linkedin: "/team",
   },
 
-  {
-    name: "Mohamad Arshia Nooraien",
-    url: "/photos/uniform/MohamadArshiaNooraien-22102A040534-CSE.jpg",
-    role: "Drafting Team",
-    linkedin: "http://www.linkedin.com/in/arshia-nooraien-m",
-  },
-
-  {
-    name: "D Raja kullayappa",
-    url: "/photos/uniform/Raja.jpg",
-    role: "Social Media Team",
-    linkedin: "https://www.linkedin.com/in/d-raja-kullayappa-6a86432ba/",
-  },
-  {
-    name: "B Rajesh",
-    url: "/photos/uniform/Rajesh.jpg",
-    role: "Sheduling Team",
-    linkedin: "https://www.linkedin.com/in/rajesh-bonam-404a99333/",
-  },
+  // {
+  //   name: "B Rajesh",
+  //   url: "/photos/uniform/Rajesh.jpg",
+  //   role: "Sheduling Team",
+  //   linkedin: "https://www.linkedin.com/in/rajesh-bonam-404a99333/",
+  // },
 
   {
     name: "Varshitha kudum",

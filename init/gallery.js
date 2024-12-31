@@ -27,10 +27,17 @@ const galleryImages = [
     url: "/photos/gallery/g27.jpg",
   },
   {
-    url: "/photos/gallery/g66.jpg",
+    url: "/photos/gallery/g65.jpg",
   },
   {
-    url: "/photos/gallery/g65.jpg",
+    url: "/photos/gallery/ga2.jpg",
+  },
+  {
+    url: "/photos/gallery/ga1.jpg",
+  },
+
+  {
+    url: "/photos/gallery/g66.jpg",
   },
   {
     url: "/photos/gallery/g67.jpg",
