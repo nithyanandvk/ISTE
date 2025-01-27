@@ -6,6 +6,8 @@ const AdvisorSchema = new Schema({
   url: { type: String },
   role: { type: String, required: true },
   linkedin: { type: String },
+  createdAt: { type: Date, default: Date.now }
+
 });
 
 const MainSchema = new Schema({
@@ -13,6 +15,7 @@ const MainSchema = new Schema({
   url: { type: String },
   role: { type: String, required: true },
   linkedin: { type: String },
+  createdAt: { type: Date, default: Date.now }
 });
 
 const CoordinatorSchema = new Schema({
@@ -20,6 +23,8 @@ const CoordinatorSchema = new Schema({
   url: { type: String },
   role: { type: String, required: true },
   linkedin: { type: String },
+  createdAt: { type: Date, default: Date.now }
+
 });
 
 module.exports = {

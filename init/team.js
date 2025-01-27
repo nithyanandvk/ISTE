@@ -143,6 +143,13 @@ module.exports.mainMembers = [
       "https://www.linkedin.com/in/harini-ganesh-a21958249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
+    name: "Kanumuri Hemalatha",
+    url: "/photos/uniform/hemalatha.jpg",
+    role: "ECE Executive",
+    linkedin:
+      "https://www.linkedin.com/in/hemakanumurimbu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
     name: "B Tejosai",
     url: "/photos/uniform/tejosai.jpg",
     role: "EIE Executive",

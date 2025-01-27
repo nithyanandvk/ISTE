@@ -1,0 +1,31 @@
+Hello Everyone!
+Biggest Achievement of 2k24 :
+I am very much happy to share our ISTE MBU & SVEC club website with you all please do visit istembu.in and please share your feedback in the comments.
+
+Video Explanation of project: 
+Instagram Live of Website Launch: https://www.instagram.com/reel/DBUH21LSNZO/?igsh=MWZ1OWViMXcyN2l2Ng==
+
+ISTE is a technical club where we conduct both technical and nontechnical events in our college to enhance skills and increase network.
+To make our club visible broader We decided to develop a website for our club and it is online now at istembu.in 
+
+A very special thanks to our faculty head Sunil sir your support in developing and launching our website was most valuable to us sir.
+
+This was not possible without the support of our team Satwik , Gowri ,Teja and special guidance of our seniors Annajappa anna, Karthik anna, Keerthan anna, Vishnu anna and support from our club members.
+
+I also like to thank our faculty and the entire ISTE family members for making our website launch event successful.
+
+I was rewarded as Web Lead at our club for my contribution in developing and deploying our full stack website and this present website is not final more updates will be made in the website as time goes by our web team.
+
+Features of our website: 
+*All pages are attractive and responsive
+*The About page presents about our club and teams in our club
+*Footer represents our social media handles to contact us
+*The Events page represents upcoming events to register for, Recent events and YouTube videos of our club activity
+*Our team represents our ISTE MBU & SVEC Family with the Faculty head, Faculty Coordinators, Advisory Board, Main Board, and Coordinators and their details
+*Gallery showcases our memories in the club
+*Admin Login is the main feature that is used to update upcoming events, past events, YouTube videos, and posters recently made into the website by using the backend, database, and cloud.
+*Authentication, authorization, and form handling are well-developed in admin login 
+
+Technologies used: HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB
+
+It was a nice experience developing our website and learned a lot from the struggles faced during the development and deployment phase.
