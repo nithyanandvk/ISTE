@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISTE MBU & SVEC</title>
+    <link rel="icon" href="/photos/teamslogo/iste.png" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .animated-background {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation: animateBackground 2s linear infinite;
+        background-image: url("/photos/teamslogo/est-logo.png");
+        background-size: cover;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include("./includes/nav.ejs") %> <%- include("./includes/cursor.ejs") %>
+    <canvas id="starCanvas"></canvas>
+    <div class="top">
+      <div class="graphic">
+        <div class="logoo">
+          <div class="animated-background"></div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="welcoming">
+          <h1 class="welcome">ECSTASY LOGO LAUNCH</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

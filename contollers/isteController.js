@@ -25,6 +25,10 @@ module.exports.gallery = async(req, res) => {
   res.render("gallery.ejs",{gallery});
 };
 
+module.exports.ecstasy = async(req, res) => { 
+  res.render("ecstasy.ejs");
+};
+
 module.exports.team = async (req, res) => {
   const advisors=await Advisor.find({});
   const mainMembers=await Main.find({});

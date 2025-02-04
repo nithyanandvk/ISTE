@@ -11,4 +11,6 @@ router.get("/gallery", isteController.gallery);
 
 router.get("/team", isteController.team);
 
+router.get("/ecstasy", isteController.ecstasy);
+
 module.exports=router;
