@@ -291,6 +291,7 @@ header p {
   opacity: 0;
   transition: opacity 0.3s ease;
   backdrop-filter: blur(5px);
+  cursor:grab;
 }
 
 .modal.show {

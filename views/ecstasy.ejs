@@ -14,14 +14,14 @@
   </head>
   <body>
     <%- include("./includes/nav.ejs") %> <%- include("./includes/cursor.ejs") %>
-    <div class="ecstasy-video" style="height: 100vh;">
+    <div class="ecstasy-video" style="height: 100vh">
       <video
         id="bgVideo"
         playsinline
         autoplay
         muted
         controlslist="nodownload nofullscreen noremoteplayback"
-        style="margin-top: 3rem;"
+        style="margin-top: 3rem"
       >
         <source src="/photos/logoo.mp4" type="video/mp4" />
       </video>
@@ -35,6 +35,131 @@
 
     <main>
       <div class="events-grid">
+        <!-- card-18-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/hackathon.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Hackathon</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 300</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 7500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>ISTE + The Coding Club + IEEE CIS</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(18)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-19-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/github.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Git & GitHub</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 0</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 0</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>ISTE + The Coding Club + IEEE CIS</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(19)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-20-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/Aws.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Aws Cloud</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 0</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 0</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>ISTE + AWS Cloud</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(20)">
+              Register Now
+            </button>
+          </div>
+        </div>
         <!-- card-1 -->
         <div class="event-card">
           <div class="event-image-div">
@@ -80,7 +205,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/" class="event-image" />
+            <img src="/photos/posters/test.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Test of Wits</h2>
@@ -108,7 +233,7 @@
               <div class="info-row">
                 <div class="info-item">
                   <i class="fas fa-user"></i>
-                  <span>Subramanyam</span>
+                  <span>Subrahmanyam</span>
                 </div>
               </div>
             </div>
@@ -118,6 +243,7 @@
           </div>
         </div>
 
+        
         <!-- card-3 -->
 
         <div class="event-card">
@@ -164,7 +290,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/cricket.png" class="event-image" />
+            <img src="/photos/posters/cricket.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Cricket Choas</h2>
@@ -205,10 +331,10 @@
         <!-- card-5 -->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/manga.png" class="event-image" />
+            <img src="/photos/posters/manga.jpg" class="event-image" />
           </div>
           <div class="event-content">
-            <h2 class="event-name">The Manga Match-Up</h2>
+            <h2 class="event-name">The Manga Mashup</h2>
             <div class="event-info">
               <div class="info-row">
                 <div class="info-item">
@@ -246,7 +372,7 @@
         <!-- card-6 -->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/GARENA.png" class="event-image" />
+            <img src="/photos/posters/GARENA.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">The Blaze Zone</h2>
@@ -329,7 +455,7 @@
         <!-- card-8 -->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/search.png" class="event-image" />
+            <img src="/photos/posters/search.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">The Grand Search</h2>
@@ -370,7 +496,7 @@
         <!-- card-9 -->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/" class="event-image" />
+            <img src="/photos/posters/beat.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Beat the floor</h2>
@@ -398,7 +524,7 @@
               <div class="info-row">
                 <div class="info-item">
                   <i class="fas fa-user"></i>
-                  <span>Tejaswari</span>
+                  <span>Bharath Sanjay, Yaswanth</span>
                 </div>
               </div>
             </div>
@@ -412,7 +538,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/" class="event-image" />
+            <img src="/photos/posters/echo.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Echo of melodies</h2>
@@ -440,7 +566,7 @@
               <div class="info-row">
                 <div class="info-item">
                   <i class="fas fa-user"></i>
-                  <span>Tejaswari</span>
+                  <span>Bharath Sanjay, Yaswanth</span>
                 </div>
               </div>
             </div>
@@ -454,7 +580,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/movie.png" class="event-image" />
+            <img src="/photos/posters/movie.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Quick Cuts</h2>
@@ -524,7 +650,7 @@
               <div class="info-row">
                 <div class="info-item">
                   <i class="fas fa-user"></i>
-                  <span>V K Nithyanand</span>
+                  <span>Bharath Sanjay</span>
                 </div>
               </div>
             </div>
@@ -566,7 +692,7 @@
               <div class="info-row">
                 <div class="info-item">
                   <i class="fas fa-user"></i>
-                  <span>Lakshmi Priya</span>
+                  <span>Lasya, Lakshmi Priya</span>
                 </div>
               </div>
             </div>
@@ -579,7 +705,7 @@
         <!-- card-14-->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/escape.png" class="event-image" />
+            <img src="/photos/posters/escape.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Escape Room</h2>
@@ -620,7 +746,7 @@
         <!-- card-15-->
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/puzzle.png" class="event-image" />
+            <img src="/photos/posters/puzzle.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Puzzle Pioneers</h2>
@@ -662,7 +788,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/funevents.png" class="event-image" />
+            <img src="/photos/posters/funevents.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Fun Activites</h2>
@@ -704,7 +830,7 @@
 
         <div class="event-card">
           <div class="event-image-div">
-            <img src="/photos/posters/squidgame.png" class="event-image" />
+            <img src="/photos/posters/squidgame.jpg" class="event-image" />
           </div>
           <div class="event-content">
             <h2 class="event-name">Squid Game</h2>
@@ -737,132 +863,6 @@
               </div>
             </div>
             <button class="register-btn" onclick="showEventDetails(17)">
-              Register Now
-            </button>
-          </div>
-        </div>
-
-        <!-- card-18-->
-
-        <div class="event-card">
-          <div class="event-image-div">
-            <img src="/photos/posters/hackathon.png" class="event-image" />
-          </div>
-          <div class="event-content">
-            <h2 class="event-name">Hackathon</h2>
-            <div class="event-info">
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-money-bill"></i>
-                  <span>&#8377; 300</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-trophy"></i>
-                  <span>&#8377; 7500</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-calendar"></i>
-                  <span>February 21, 2025</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-clock"></i>
-                  <span>9:00 AM - 5:00 PM</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-user"></i>
-                  <span>Gowri Shankar</span>
-                </div>
-              </div>
-            </div>
-            <button class="register-btn" onclick="showEventDetails(18)">
-              Register Now
-            </button>
-          </div>
-        </div>
-
-        <!-- card-19-->
-
-        <div class="event-card">
-          <div class="event-image-div">
-            <img src="/photos/posters/github.png" class="event-image" />
-          </div>
-          <div class="event-content">
-            <h2 class="event-name">Git & GitHub</h2>
-            <div class="event-info">
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-money-bill"></i>
-                  <span>&#8377; 0</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-trophy"></i>
-                  <span>&#8377; 0</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-calendar"></i>
-                  <span>February 21, 2025</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-clock"></i>
-                  <span>9:00 AM - 12:00 PM</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-user"></i>
-                  <span>Keerthan</span>
-                </div>
-              </div>
-            </div>
-            <button class="register-btn" onclick="showEventDetails(19)">
-              Register Now
-            </button>
-          </div>
-        </div>
-
-        <!-- card-20-->
-
-        <div class="event-card">
-          <div class="event-image-div">
-            <img src="/photos/posters/Aws.png" class="event-image" />
-          </div>
-          <div class="event-content">
-            <h2 class="event-name">Aws Cloud</h2>
-            <div class="event-info">
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-money-bill"></i>
-                  <span>&#8377; 0</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-trophy"></i>
-                  <span>&#8377; 0</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-calendar"></i>
-                  <span>February 21, 2025</span>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-clock"></i>
-                  <span>9:00 AM - 12:00 PM</span>
-                </div>
-              </div>
-              <div class="info-row">
-                <div class="info-item">
-                  <i class="fas fa-user"></i>
-                  <span>Rahul</span>
-                </div>
-              </div>
-            </div>
-            <button class="register-btn" onclick="showEventDetails(20)">
               Register Now
             </button>
           </div>

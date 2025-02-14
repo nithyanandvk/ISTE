@@ -23,12 +23,12 @@ Here the opportunity, Join us for ♟⚡ King’s Conquest an intense knockout-s
     {
         "id": 2,
         "name": "Test of Wits",
-        "image": "/photos/posters/",
+        "image": "/photos/posters/test.jpg",
         "fee": 20,
         "prize": 500,
         "date": "UPDATED SOON",
         "time": "UPDATED SOON",
-        "lead": "Subramanyam",
+        "lead": "Subrahmanyam",
         "venue": "UPDATED SOON",
         "description": `Unleash your inner genius, decode the unseen, and conquer the challenge! 🧩🔍  <br>
 Each step brings you closer to victory. 🏆💨 <br> 
@@ -78,8 +78,8 @@ Play Well Win Cash😜
     },
     {
         "id": 5,
-        "name": "The Manga Match-Up ",
-        "image": "/photos/posters/manga.png",
+        "name": "The Manga Mashup",
+        "image": "/photos/posters/manga.jpg",
         "fee": 30,
         "prize": 800,
         "date": "February 21, 2025",
@@ -98,7 +98,7 @@ Share your anime-inspired experiences, talents, and passions!<br>
     {
         "id": 6,
         "name": "The Blaze Zone ",
-        "image": "/photos/posters/GARENA.png",
+        "image": "/photos/posters/GARENA.jpg",
         "fee": 200,
         "prize": 3500,
         "date": "February 22, 2025",
@@ -108,6 +108,15 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "description": `Hey gamers!🎮<br>
 Hope you’re all set for an adrenaline-pumping clash! 🚀🔥<br><br>
 Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play   where only the strongest💪 make it to the top! 🏆 Battle through multiple rounds, eliminate your enemies🙅‍♂, and claim victory as the last one standing!💥
+<br><br>1st prize --- 2000
+2nd prize --- 1500  
+1->Bermuda Full map Squad gameplay 
+2->Participants who had registered; Everyone should come to venue and play..No excuse for playing outside the venue.
+3-> If any player using any hack or bug strictly that whole squad is eliminated from the game.
+4-> Players should play from the Id given by them only else entire squad will be eliminated 
+5-> Gun attributes will be turned off during the match
+6-> players using abuse language will be  eliminated from the match
+7->we aren't responsible for network issues, pc players aren't allowed, try to bring your own earphones
 `,
         "formUrl": "https://forms.gle/1D6RXNbdv1DMDX578"
     },
@@ -134,11 +143,11 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
     {
         "id": 8,
         "name": "The Grand Search",
-        "image": "/photos/posters/search.png",
+        "image": "/photos/posters/search.jpg",
         "fee": 100,
         "prize": 2000,
         "date": "February 21, 2025",
-        "time": "2:00 PM - 5:00 PM",
+        "time": "1:30 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
         "venue": "Room No. 351, 2, 3, 4 ",
         "description": `Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
@@ -150,12 +159,12 @@ As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where parti
     {
         "id": 9,
         "name": "Beat the floor",
-        "image": "/photos/posters/",
+        "image": "/photos/posters/beat.jpg",
         "fee": 50,
         "prize": 1400,
         "date": "February 21, 2025",
         "time": "2:00 PM-5:00 PM",
-        "lead": "Tejaswari",
+        "lead": "Bharath Sanjay, Yaswanth",
         "venue": "Dasari  Auditorium ",
         "description": 'As a part of ECSTASY ✨, we are organizing a thrilling dance extravaganza 🌟, where participants🕺💃 will dazzle the audience with their 🤩mesmerizing moves and compete for the coveted title! 🏆',
         "formUrl": "https://forms.gle/rUbsKLqSRnELgxfy6"
@@ -163,12 +172,12 @@ As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where parti
     {
         "id": 10,
         "name": "Echo of melodies ",
-        "image": "/photos/posters/",
+        "image": "/photos/posters/echo.jpg",
         "fee": 50,
         "prize": 1400,
         "date": "February 21, 2025",
         "time": "2:00 PM - 5:00 PM",
-        "lead": "Tejaswari",
+        "lead": "Bharath Sanjay, Yaswanth",
         "venue": "Updated Soon",
         "description": `Get ready for exclusive entertainment 🥂with your melodies 🎶.<br>
 
@@ -181,7 +190,7 @@ It's time to ignite your excitement 😊 and markup the date of the ➋➊-⓿�
     {
         "id": 11,
         "name": "Quick Cuts ",
-        "image": "/photos/posters/movie.png",
+        "image": "/photos/posters/movie.jpg",
         "fee": 200,
         "prize": 1500,
         "date": "February 22, 2025",
@@ -209,7 +218,7 @@ Lights, camera, action! 🎬<br><br>
         "prize": 1000,
         "date": "February 21, 2025",
         "time": "9:00 AM -12:00 PM",
-        "lead": "V K Nithyanand",
+        "lead": "Bharath Sanjay",
         "venue": "UPDATED SOON",
         "description": `It's you vs. the cube . Can you solve it faster than anyone else? ⏳🔥 Join Twist of Genius , where speed meets skill in the ultimate Rubik's Cube face-off! 🚀🎯<br><br>
 
@@ -225,7 +234,7 @@ Lights, camera, action! 🎬<br><br>
         "prize": 1000,
         "date": "February 21, 2025",
         "time": "4:00 PM - 5:00 PM",
-        "lead": "Lakshmi Priya",
+        "lead": "Lasya, Lakshmi Priya",
         "venue": "Updated Soon",
         "description": "Step into the spotlight at Elegance on Edge💃 , where aspiring models, either a boy🕺 or a girl or both on the stage 👩🏻‍🤝‍👨🏼 showcase their charisma and flair on the catwalk. Strut, pose, and compete to be the ultimate showstopper! 👗💫 With dazzling outfits, fierce competition, and an electrifying atmosphere, this is your moment to shine!",
         "formUrl": "https://forms.gle/vGyUhmjchGtRa1Kv8"
@@ -233,7 +242,7 @@ Lights, camera, action! 🎬<br><br>
     {
         "id": 14,
         "name": "Escape Room ",
-        "image": "/photos/posters/escape.png",
+        "image": "/photos/posters/escape.jpg",
         "fee": 30,
         "prize": 500,
         "date": "February 21, 2025",
@@ -248,7 +257,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
     {
         "id": 15,
         "name": "Super Sudoku",
-        "image": "/photos/posters/puzzle.png",
+        "image": "/photos/posters/puzzle.jpg",
         "fee": 30,
         "prize": 800,
         "date": "February 21, 2025",
@@ -264,7 +273,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
     {
         "id": 16,
         "name": "Fun Activities",
-        "image": "/photos/posters/funevents.png",
+        "image": "/photos/posters/funevents.jpg",
         "fee": 0,
         "prize": 0,
         "date": "February 21, 2025",
@@ -277,7 +286,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
     {
         "id": 17,
         "name": "Squid Game",
-        "image": "/photos/posters/squidgame.png",
+        "image": "/photos/posters/squidgame.jpg",
         "fee": 50,
         "prize": 2000,
         "date": "February 21, 2025",
@@ -290,7 +299,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
     {
         "id": 18,
         "name": "Hackathon ",
-        "image": "/photos/posters/hackathon.png",
+        "image": "/photos/posters/hackathon.jpg",
         "fee": 300,
         "prize": 7500,
         "date": "February 19, 202en25",
@@ -305,7 +314,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
     {
         "id": 19,
         "name": "Git & GitHub ",
-        "image": "/photos/posters/github.png",
+        "image": "/photos/posters/github.jpg",
         "fee": 0,
         "prize": 0,
         "date": "February 22, 2025",
@@ -318,7 +327,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
     {
         "id": 20,
         "name": "AWS Cloud",
-        "image": "/photos/posters/Aws.png",
+        "image": "/photos/posters/Aws.jpg",
         "fee": 0,
         "prize": 0,
         "date": "February 21, 2025",
