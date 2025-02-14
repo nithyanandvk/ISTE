@@ -5,38 +5,878 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISTE MBU & SVEC</title>
     <link rel="icon" href="/photos/teamslogo/iste.png" />
-    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/es.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <style>
-      .animated-background {
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        animation: animateBackground 2s linear infinite;
-        background-image: url("/photos/teamslogo/est-logo.png");
-        background-size: cover;
-        opacity: 0.8;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <%- include("./includes/nav.ejs") %> <%- include("./includes/cursor.ejs") %>
-    <canvas id="starCanvas"></canvas>
-    <div class="top">
-      <div class="graphic">
-        <div class="logoo">
-          <div class="animated-background"></div>
+    <div class="ecstasy-video" style="height: 100vh;">
+      <video
+        id="bgVideo"
+        playsinline
+        autoplay
+        muted
+        controlslist="nodownload nofullscreen noremoteplayback"
+        style="margin-top: 3rem;"
+      >
+        <source src="/photos/logoo.mp4" type="video/mp4" />
+      </video>
+      <i id="soundIcon" class="fas fa-volume-mute sound-icon"></i>
+    </div>
+
+    <header>
+      <h1>ISTE presents you Ecstasy 2025</h1>
+      <p>Join us for an exciting series of events!</p>
+    </header>
+
+    <main>
+      <div class="events-grid">
+        <!-- card-1 -->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/King.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">King's Conquest</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 11:00AM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>V K Nithyanand,V Satwik Yadav</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(1)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-2 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Test of Wits</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 20</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21,2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM -12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Subramanyam</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(2)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/techtrek.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Tech Trek</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM -12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Likitha</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(3)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-4 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/cricket.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Cricket Choas</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 200</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 2000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 22, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>8:00 AM -1:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Balaji</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(4)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-5 -->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/manga.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">The Manga Match-Up</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 30</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 800</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Swapna</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(5)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-6 -->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/GARENA.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">The Blaze Zone</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 200</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 3500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 22, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM -12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Jambhava</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(6)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-7 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/bigbite.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Big Bite Challenge</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Abhilash,Nikitha</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(7)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-8 -->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/search.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">The Grand Search</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 100</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 2000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM- 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Jahnavi,Tejaswari,Divya</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(8)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-9 -->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Beat the floor</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1400</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM -5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Tejaswari</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(9)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-10 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Echo of melodies</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1400</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Tejaswari</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(10)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-11 -->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/movie.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Quick Cuts</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 200</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 22, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM -12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Roohid Bhasa</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(11)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-12-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/twist.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Twist of Genius</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 30</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM -12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>V K Nithyanand</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(12)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-13-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/elegance.jpg" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Elegance on Edge</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 1000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>4:00 PM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Lakshmi Priya</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(13)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-14-->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/escape.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Escape Room</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 30</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>10:00 AM - 12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Vaishnavi </span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(14)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-15-->
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/puzzle.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Puzzle Pioneers</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 30</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 800</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>10:30 AM - 12:30 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Sai Ram</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(15)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-16-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/funevents.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Fun Activites</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 0</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 0</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>UPDATE SOON</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Sravan</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(16)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-17-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/squidgame.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Squid Game</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 50</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 2000</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Hema sai</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(17)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-18-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/hackathon.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Hackathon</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 300</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 7500</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 5:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Gowri Shankar</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(18)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-19-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/github.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Git & GitHub</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 0</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 0</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Keerthan</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(19)">
+              Register Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card-20-->
+
+        <div class="event-card">
+          <div class="event-image-div">
+            <img src="/photos/posters/Aws.png" class="event-image" />
+          </div>
+          <div class="event-content">
+            <h2 class="event-name">Aws Cloud</h2>
+            <div class="event-info">
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-money-bill"></i>
+                  <span>&#8377; 0</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-trophy"></i>
+                  <span>&#8377; 0</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>February 21, 2025</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>9:00 AM - 12:00 PM</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-item">
+                  <i class="fas fa-user"></i>
+                  <span>Rahul</span>
+                </div>
+              </div>
+            </div>
+            <button class="register-btn" onclick="showEventDetails(20)">
+              Register Now
+            </button>
+          </div>
         </div>
       </div>
+    </main>
 
-      <div class="info">
-        <div class="welcoming">
-          <h1 class="welcome">ECSTASY LOGO LAUNCH</h1>
-        </div>
+    <div id="eventModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div id="eventDetails"></div>
       </div>
     </div>
+    <%- include("includes/contact.ejs")%>
+    <script src="/js/es.js"></script>
   </body>
 </html>
