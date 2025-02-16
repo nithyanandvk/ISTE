@@ -108,15 +108,15 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "description": `Hey gamers!🎮<br>
 Hope you’re all set for an adrenaline-pumping clash! 🚀🔥<br><br>
 Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play   where only the strongest💪 make it to the top! 🏆 Battle through multiple rounds, eliminate your enemies🙅‍♂, and claim victory as the last one standing!💥
-<br><br>1st prize --- 2000
-2nd prize --- 1500  
-1->Bermuda Full map Squad gameplay 
-2->Participants who had registered; Everyone should come to venue and play..No excuse for playing outside the venue.
-3-> If any player using any hack or bug strictly that whole squad is eliminated from the game.
-4-> Players should play from the Id given by them only else entire squad will be eliminated 
-5-> Gun attributes will be turned off during the match
-6-> players using abuse language will be  eliminated from the match
-7->we aren't responsible for network issues, pc players aren't allowed, try to bring your own earphones
+<br><br>1st prize --- 2000 <br>
+2nd prize --- 1500   <br>
+1->Bermuda Full map Squad gameplay  <br>
+2->Participants who had registered; Everyone should come to venue and play..No excuse for playing outside the venue. <br>
+3-> If any player using any hack or bug strictly that whole squad is eliminated from the game. <br>
+4-> Players should play from the Id given by them only else entire squad will be eliminated  <br>
+5-> Gun attributes will be turned off during the match <br>
+6-> players using abuse language will be  eliminated from the match <br>
+7->we aren't responsible for network issues, pc players aren't allowed, try to bring your own earphones <br>
 `,
         "formUrl": "https://forms.gle/1D6RXNbdv1DMDX578"
     },
@@ -291,7 +291,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "prize": 2000,
         "date": "February 21, 2025",
         "time": "2:00 PM - 5:00 PM",
-        "lead": "Hema Sai",
+        "lead": "ISTE + DATA",
         "venue": "NAB Ground",
         "description": "Face intense challenges, outplay your opponents, and fight for victory. One wrong move, and you're out!",
         "formUrl": "https://forms.gle/nwHxiyrxA8CpvxdP7"
@@ -304,7 +304,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "prize": 7500,
         "date": "February 19, 202en25",
         "time": "9:00 AM",
-        "lead": "Gowri Shankar",
+        "lead": "ISTE + The Coding Club + IEEE CIS",
         "venue": "Seminar Hall",
         "description": `Hello Developers, Designers & Innovators!👨🏻‍💻👨🏻‍💻<br><br>
 
@@ -319,7 +319,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "prize": 0,
         "date": "February 22, 2025",
         "time": "9:00 AM - 12:00 PM",
-        "lead": "Keerthan",
+        "lead": "ISTE + The Coding Club + IEEE CIS",
         "venue": "NAB(2) orTGR or 351,2,3,4",
         "description": "Are you ready to take your coding and collaboration  skills to the next level📈? Join us for an interactive session on version control using Git & collaborative coding with GitHub ! this workshop 🛠 enhances your workflow, will equip🔧 you with essential skills to manage and share your code like a pro!💻💡.",
         "formUrl": "https://forms.gle/link-to-test-of-wits-form"
@@ -332,7 +332,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "prize": 0,
         "date": "February 21, 2025",
         "time": "9:00 AM - 12:00 Pm",
-        "lead": "Rahul",
+        "lead": "ISTE + AWS",
         "venue": "Dasari Auditorium",
         "description": "As a part of ECSTASY ✨, we are organizing a thrilling dance extravaganza 🌟, where participants🕺💃 will dazzle the audience with their 🤩mesmerizing moves and compete for the coveted title! 🏆",
         "formUrl": "https://forms.gle/GdJAPFXeG8qqpSWN8"
