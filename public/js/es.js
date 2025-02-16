@@ -322,7 +322,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "lead": "ISTE + The Coding Club + IEEE CIS",
         "venue": "NAB(2) orTGR or 351,2,3,4",
         "description": "Are you ready to take your coding and collaboration  skills to the next level📈? Join us for an interactive session on version control using Git & collaborative coding with GitHub ! this workshop 🛠 enhances your workflow, will equip🔧 you with essential skills to manage and share your code like a pro!💻💡.",
-        "formUrl": "https://forms.gle/link-to-test-of-wits-form"
+        "formUrl": "https://forms.gle/yyUrDBWBVS5smMoW6"
     },
     {
         "id": 20,
