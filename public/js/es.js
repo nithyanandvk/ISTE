@@ -101,8 +101,8 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "image": "/photos/posters/GARENA.jpg",
         "fee": 200,
         "prize": 3500,
-        "date": "February 22, 2025",
-        "time": "9:00 AM - 12:00PM",
+        "date": "February 21, 2025",
+        "time": "2:30 PM - 5:30PM",
         "lead": "Jambhava",
         "venue": "UPDATED SOON",
         "description": `Hey gamers!🎮<br>
@@ -147,7 +147,7 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
         "fee": 100,
         "prize": 2000,
         "date": "February 21, 2025",
-        "time": "1:30 PM - 5:00 PM",
+        "time": "1:00 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
         "venue": "Room No. 351, 2, 3, 4 ",
         "description": `Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
@@ -232,7 +232,7 @@ Lights, camera, action! 🎬<br><br>
         "image": "/photos/posters/elegance.jpg",
         "fee": 50,
         "prize": 1000,
-        "date": "February 21, 2025",
+        "date": "February 22, 2025",
         "time": "4:00 PM - 5:00 PM",
         "lead": "Lasya, Lakshmi Priya",
         "venue": "Updated Soon",
@@ -323,6 +323,19 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "venue": "NAB(2) orTGR or 351,2,3,4",
         "description": "Are you ready to take your coding and collaboration  skills to the next level📈? Join us for an interactive session on version control using Git & collaborative coding with GitHub ! this workshop 🛠 enhances your workflow, will equip🔧 you with essential skills to manage and share your code like a pro!💻💡.",
         "formUrl": "https://forms.gle/yyUrDBWBVS5smMoW6"
+    },
+    {
+        "id": 21,
+        "name": "BGMI ",
+        "image": "/photos/posters/bgmi.jpg",
+        "fee": 200,
+        "prize": 3500,
+        "date": "February 22, 2025",
+        "time": "9:00 AM - 12:00 PM",
+        "lead": "Raja",
+        "venue": "update soon",
+        "description": "bgmi",
+        "formUrl": "https://forms.gle/6zroJgTfihJNzdbb9"
     },
     {
         "id": 20,
