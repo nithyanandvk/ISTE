@@ -233,7 +233,7 @@ Lights, camera, action! 🎬<br><br>
         "fee": 50,
         "prize": 1000,
         "date": "February 22, 2025",
-        "time": "4:00 PM - 5:00 PM",
+        "time": "10:00AM to 12:00PM",
         "lead": "Lasya, Lakshmi Priya",
         "venue": "Updated Soon",
         "description": "Step into the spotlight at Elegance on Edge💃 , where aspiring models, either a boy🕺 or a girl or both on the stage 👩🏻‍🤝‍👨🏼 showcase their charisma and flair on the catwalk. Strut, pose, and compete to be the ultimate showstopper! 👗💫 With dazzling outfits, fierce competition, and an electrifying atmosphere, this is your moment to shine!",
@@ -302,7 +302,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "image": "/photos/posters/hackathon.jpg",
         "fee": 300,
         "prize": 7500,
-        "date": "February 19, 202en25",
+        "date": "February 19, 2025",
         "time": "9:00 AM",
         "lead": "ISTE + The Coding Club + IEEE CIS",
         "venue": "Seminar Hall",
@@ -334,7 +334,8 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "time": "9:00 AM - 12:00 PM",
         "lead": "Raja",
         "venue": "update soon",
-        "description": "bgmi",
+        "description": "BattleGrounds – Estacy 2k25 🎮🔥<br><br>Join us for BattleGrounds Conquest, the ultimate BGMI tournament, where strategy, reflexes, and teamwork will determine the true champion!<br><br>Are you ready to drop in and dominate the battlefield? 🚀🎯<br><br><b>📌 Rules & Guidelines:</b><br><br>✅ Headphones are mandatory. 🎧<br>✅ Only Squad is allowed, if 1 player is not available in your team, the entire team is disqualified.<br>✅ Device check-in required before the match. 📱<br>✅ Fair play policy enforced – No hacks, scripts, or external assistance! 🚫<br>✅ Timely arrival is a must – Late entries won’t be entertained ⏳<br><br>👉🏻❌ We are not responsible for your mobile phones outside the event room.<br><br><b>📅 Date:</b> 22/02/2025<br><b>⏰ Time:</b> 9:00 AM - 12:00 PM"
+        ,
         "formUrl": "https://forms.gle/6zroJgTfihJNzdbb9"
     },
     {
