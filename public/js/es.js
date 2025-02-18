@@ -108,8 +108,7 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "description": `Hey gamers!🎮<br>
 Hope you’re all set for an adrenaline-pumping clash! 🚀🔥<br><br>
 Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play   where only the strongest💪 make it to the top! 🏆 Battle through multiple rounds, eliminate your enemies🙅‍♂, and claim victory as the last one standing!💥
-<br><br>1st prize --- 2000 <br>
-2nd prize --- 1500   <br>
+<br>
 1->Bermuda Full map Squad gameplay  <br>
 2->Participants who had registered; Everyone should come to venue and play..No excuse for playing outside the venue. <br>
 3-> If any player using any hack or bug strictly that whole squad is eliminated from the game. <br>
@@ -363,14 +362,6 @@ function showEventDetails(eventId) {
             <img src="${event.image}" alt="${event.name}">
             <h2>${event.name}</h2>
             <div class="details-grid">
-                <div class="info-item">
-                    <i class="fas fa-money-bill"></i>
-                    <span>Fee: &#8377;${event.fee}</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-trophy"></i>
-                    <span>Prize: &#8377;${event.prize}</span>
-                </div>
                 <div class="info-item">
                     <i class="fas fa-calendar"></i>
                     <span>${event.date}</span>
