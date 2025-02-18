@@ -146,7 +146,7 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
         "fee": 100,
         "prize": 2000,
         "date": "February 21, 2025",
-        "time": "1:00 PM - 5:00 PM",
+        "time": "1:30 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
         "venue": "Room No. 351, 2, 3, 4 ",
         "description": `Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
