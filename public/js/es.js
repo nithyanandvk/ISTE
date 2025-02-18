@@ -302,7 +302,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "image": "/photos/posters/hackathon.jpg",
         "fee": 300,
         "prize": 7500,
-        "date": "February 19, 2025",
+        "date": "February 21, 2025",
         "time": "9:00 AM",
         "lead": "ISTE + The Coding Club + IEEE CIS",
         "venue": "Seminar Hall",
