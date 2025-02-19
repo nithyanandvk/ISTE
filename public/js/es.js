@@ -7,7 +7,7 @@ const events = [
         "fee": 50,
         "prize": 1500,
         "date": "February 21, 2025",
-        "time": "9:00 AM - 11:00 AM",
+        "time": "9:00 AM - 1:00 PM",
         "lead": "V K Nithyanand, V Satwik Yadav",
         "venue": "UPDATED SOON",
         "description": `
@@ -16,6 +16,7 @@ const events = [
 Here the opportunity, Join us for ♟⚡ King’s Conquest an intense knockout-style⏱ chess tournament 🏁where strategic planning meets fierce competition.🔥<br><br>
 
  📈Progress through multiple rounds, eliminate your competitors, and battle👊 your way to the top. 
+
 
     `,
         "formUrl": "https://forms.gle/9GAr8BoFR8WANPz88"
@@ -96,10 +97,45 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "formUrl": "https://forms.gle/LSk54zAZagiiKY1Y6"
     },
     {
+        "id": 22,
+        "name": "AI Prompt Worshop",
+        "image": "/photos/posters/acm.jpg",
+        "fee": 30,
+        "prize": 800,
+        "date": "updated soon",
+        "time": "updated soon",
+        "lead": "ACM",
+        "venue": "UPDATED SOON",
+        "description": `ECSTASY-2k25🪄- 🎉 AI-Prompt Hands-on Workshop �
+
+🚀 Prompt Mastery (Workshop) 
+⏰ 30-45 mins | Learn to craft effective AI prompts.
+
+ Round 1: AI vs. Human 🤖👤 
+⏰ 45 mins | Debunk AI's false claims (e.g., "2+2=5")
+👉 Elimination round!
+ Round 2: AI Innovation Challenge💻
+⏰ 45 mins | Solve real-world problems using AI
+👉 Elimination round!
+ Final Round: AI Debate🏁 
+⏰ 30 mins | Debate AI-related topics
+🏆 Strongest arguments win!
+
+📜 *Rules:*  
+1. Respectful debates 🗣only.  
+2. Use *one AI tool* (e.g., ChatGPT, Gemini).  
+3. No🙅 external sources(eg: Google etc ..),Write in your own words.  
+4. No mobile 📱, Bring your own laptops👩‍💻.  
+" AI vs. AI: the ultimate showdown of silicon minds💥🤖." 
+
+`,
+        "formUrl": "https://forms.gle/LSk54zAZagiiKY1Y6"
+    },
+    {
         "id": 6,
         "name": "The Blaze Zone ",
         "image": "/photos/posters/GARENA.jpg",
-        "fee": 200,
+        "fee": "200 per squad",
         "prize": 3500,
         "date": "February 21, 2025",
         "time": "2:30 PM - 5:30PM",
@@ -124,7 +160,7 @@ Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play  
         "name": "Big Bite Challenge",
         "image": "/photos/posters/bigbite.jpg",
         "fee": 50,
-        "prize": 1500,
+        "prize": 2500,
         "date": "February 21, 2025",
         "time": "2:00 PM- 5:00 Pm",
         "lead": "Abhilash, Nikitha",
@@ -143,8 +179,8 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
         "id": 8,
         "name": "The Grand Search",
         "image": "/photos/posters/search.jpg",
-        "fee": 100,
-        "prize": 2000,
+        "fee": "100 per team",
+        "prize": "updated soon",
         "date": "February 21, 2025",
         "time": "1:30 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
@@ -307,7 +343,8 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "venue": "Seminar Hall",
         "description": `Hello Developers, Designers & Innovators!👨🏻‍💻👨🏻‍💻<br><br>
 
-Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Whether you're a front-end wizard💡, back-end guru👨🏻‍🏫, or a full-stack powerhouse⚡, this is your chance to showcase your skills, build amazing projects,and compete for exciting prizes!🏆🥇 `,
+Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Whether you're a front-end wizard💡, back-end guru👨🏻‍🏫, or a full-stack powerhouse⚡, this is your chance to showcase your skills, build amazing projects,and compete for exciting prizes!🏆🥇
+<br> <a href="https://drive.google.com/file/d/1tBfwt4IiSdOooiFyWi6rT48ArZ4A0Ehn/view?usp=sharing">PROBLEM STATEMENTS</a> <br><a href="https://drive.google.com/file/d/1G5SzvovgE1kkvZjKz0US1wgmTrQ_3XXk/view">Guidelines</a> `,
         "formUrl": "https://forms.gle/cq5ZT4pLogxayPM19"
     },
     {
@@ -357,33 +394,74 @@ function showEventDetails(eventId) {
     const modal = document.getElementById('eventModal');
     const detailsContainer = document.getElementById('eventDetails');
 
-    detailsContainer.innerHTML = `
-        <div class="event-details">
-            <img src="${event.image}" alt="${event.name}">
-            <h2>${event.name}</h2>
-            <div class="details-grid">
-                <div class="info-item">
-                    <i class="fas fa-calendar"></i>
-                    <span>${event.date}</span>
+    if (event.id === 6 || event.id === 7 || event.id === 8) {
+        detailsContainer.innerHTML = `
+            <div class="event-details">
+                <img src="${event.image}" alt="${event.name}">
+                <h2>${event.name}</h2>
+                <div class="details-grid">
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>${event.date}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>${event.time}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-money-bill"></i>
+                        <span>Fee: &#8377;${event.fee}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Prize: &#8377;${event.prize}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>${event.lead}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>${event.venue}</span>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <i class="fas fa-clock"></i>
-                    <span>${event.time}</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-user"></i>
-                    <span>${event.lead}</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-location-dot"></i>
-                    <span>${event.venue}</span>
-                </div>
+                <p class="description">${event.description}</p>
+                <a href="${event.formUrl}" target="_blank">
+                    <button class="register-btn">Register Now</button>
+                </a>
             </div>
-            <p class="description">${event.description}</p>
-            <a href="${event.formUrl}" target="_blank">
-                <button class="register-btn">Register Now</button>
-            </a>        </div>
-    `;
+        `;
+    } else {
+        detailsContainer.innerHTML = `
+            <div class="event-details">
+                <img src="${event.image}" alt="${event.name}">
+                <h2>${event.name}</h2>
+                <div class="details-grid">
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>${event.date}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>${event.time}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>${event.lead}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>${event.venue}</span>
+                    </div>
+                </div>
+                <p class="description">${event.description}</p>
+                <a href="${event.formUrl}" target="_blank">
+                    <button class="register-btn">Register Now</button>
+                </a>
+            </div>
+        `;
+    }
+
 
     modal.style.display = 'block';
     setTimeout(() => {
