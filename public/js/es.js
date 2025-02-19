@@ -162,7 +162,7 @@ As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where parti
         "fee": 50,
         "prize": 1400,
         "date": "February 21, 2025",
-        "time": "2:00 PM-5:00 PM",
+        "time": "1:00 PM-5:00 PM",
         "lead": "Bharath Sanjay, Yaswanth",
         "venue": "Dasari  Auditorium ",
         "description": 'As a part of ECSTASY ✨, we are organizing a thrilling dance extravaganza 🌟, where participants🕺💃 will dazzle the audience with their 🤩mesmerizing moves and compete for the coveted title! 🏆',
@@ -175,7 +175,7 @@ As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where parti
         "fee": 50,
         "prize": 1400,
         "date": "February 21, 2025",
-        "time": "2:00 PM - 5:00 PM",
+        "time": "1:00 PM - 5:00 PM",
         "lead": "Bharath Sanjay, Yaswanth",
         "venue": "Updated Soon",
         "description": `Get ready for exclusive entertainment 🥂with your melodies 🎶.<br>
@@ -245,7 +245,7 @@ Lights, camera, action! 🎬<br><br>
         "fee": 30,
         "prize": 500,
         "date": "February 21, 2025",
-        "time": "10:00 AM - 12:00 PM",
+        "time": "9:30 AM - 12:00 PM",
         "lead": "Vaishnavi ",
         "venue": "Updated Soon",
         "description": `Do you have the skills to crack the clues and find your way out? ⏳🚪  
