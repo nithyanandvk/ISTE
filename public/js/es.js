@@ -102,10 +102,10 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "image": "/photos/posters/acm.jpg",
         "fee": 30,
         "prize": 800,
-        "date": "updated soon",
-        "time": "updated soon",
+        "date": "21 February 2025",
+        "time": "2:00pm to 5:00pm",
         "lead": "ACM",
-        "venue": "UPDATED SOON",
+        "venue": "824,825",
         "description": `ECSTASY-2k25🪄- 🎉 AI-Prompt Hands-on Workshop �
 
 🚀 Prompt Mastery (Workshop) 
@@ -343,7 +343,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "date": "February 21, 2025",
         "time": "9:00 AM",
         "lead": "ISTE + The Coding Club + IEEE CIS",
-        "venue": "Seminar Hall",
+        "venue": "Research Labs",
         "description": `Hello Developers, Designers & Innovators!👨🏻‍💻👨🏻‍💻<br><br>
 
 Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Whether you're a front-end wizard💡, back-end guru👨🏻‍🏫, or a full-stack powerhouse⚡, this is your chance to showcase your skills, build amazing projects,and compete for exciting prizes!🏆🥇
