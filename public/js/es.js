@@ -9,7 +9,7 @@ const events = [
         "date": "February 21, 2025",
         "time": "9:00 AM - 1:00 PM",
         "lead": "V K Nithyanand, V Satwik Yadav",
-        "venue": "UPDATED SOON",
+        "venue": "818",
         "description": `
       Think you have skill to checkmate your opponents and seize the throne? 🏆♟ <br><br> 
 
@@ -27,10 +27,10 @@ Here the opportunity, Join us for ♟⚡ King’s Conquest an intense knockout-s
         "image": "/photos/posters/test.jpg",
         "fee": 20,
         "prize": 500,
-        "date": "UPDATED SOON",
-        "time": "UPDATED SOON",
+        "date": "February 21,2025",
+        "time": "9:00 AM -12:00 PM",
         "lead": "Subrahmanyam",
-        "venue": "UPDATED SOON",
+        "venue": "816",
         "description": `Unleash your inner genius, decode the unseen, and conquer the challenge! 🧩🔍  <br>
 Each step brings you closer to victory. 🏆💨 <br> 
 Sharpen your mind🧠, trust your logic, complete the given pattern.💡 <br> 
@@ -50,7 +50,7 @@ The ultimate battle of brilliance awaits—dare to dominate! 💪🌟 `,
         "date": "February 21, 2025",
         "time": "9:00 AM -12:00 PM",
         "lead": "Likitha",
-        "venue": "Mechanical Seminar Hall",
+        "venue": "825",
         "description": `🌟 Why Tech Trek👨‍💻? <br><br>
 It’s not just an event—it’s a journey into innovation 🚀.<br><br>  
 👉 Showcase your groundbreaking ideas💬💡, collaborate with experts, and expand your network. 🤝<br><br>
@@ -86,7 +86,7 @@ Play Well Win Cash😜
         "date": "February 21, 2025",
         "time": "2:00 PM - 5:00 PM",
         "lead": "Swapna",
-        "venue": "UPDATED SOON",
+        "venue": "817",
         "description": `Hello All!👋We know most of you are anime lovers so, we are came back to "Unleash Your Inner Anime Character"<br><br> 
 
 👉Imagine you're a real-life anime character!<br>
@@ -137,9 +137,9 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "image": "/photos/posters/GARENA.jpg",
         "fee": "200 per squad",
         "prize": 3500,
-        "date": "February 21, 2025",
-        "time": "2:30 PM - 5:30PM",
-        "lead": "Jambhava",
+        "date": "February 22, 2025",
+        "time": "9:30 AM - 12:30PM",
+        "lead": "Jambava",
         "venue": "UPDATED SOON",
         "description": `Hey gamers!🎮<br>
         <b>Note : Registration fee 200 per squad and 3500 prize money</b><br>
@@ -165,7 +165,7 @@ Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play  
         "date": "February 21, 2025",
         "time": "2:00 PM- 5:00 Pm",
         "lead": "Abhilash, Nikitha",
-        "venue": "Updated Soon",
+        "venue": "354",
         "description": `Hey foodies😋 ,<br> 
         <b>Note : Registration fee 50 per squad and 2500 prize money</b><br>
 Hope u all waiting for a big bite🍔<br>
@@ -182,11 +182,11 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
         "name": "The Grand Search",
         "image": "/photos/posters/search.jpg",
         "fee": "100 per team",
-        "prize": "updated soon",
+        "prize": "X000",
         "date": "February 21, 2025",
         "time": "1:30 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
-        "venue": "Room No. 351, 2, 3, 4 ",
+        "venue": "Room No. 353 ",
         "description": `
         <b>Note : Registration fee 100 per squad and prize money updated soon</b><br>Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
 
@@ -216,7 +216,7 @@ As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where parti
         "date": "February 21, 2025",
         "time": "1:00 PM - 5:00 PM",
         "lead": "Bharath Sanjay, Yaswanth",
-        "venue": "Updated Soon",
+        "venue": "Dasari  Auditorium ",
         "description": `Get ready for exclusive entertainment 🥂with your melodies 🎶.<br>
 
 "ꜱɪɴɢɪɴɢ ɪꜱ ʟɪᴋᴇ ᴘᴀɪɴᴛɪɴɢ ᴡɪᴛʜ ꜱᴏᴜɴᴅ 🎷, ᴡʜᴇʀᴇ ᴇᴠᴇʀʏ ɴᴏᴛᴇ ɪꜱ ᴀ ʙʀᴜꜱʜꜱᴛʀᴏᴋᴇ ᴏɴ ᴛʜᴇ ᴄᴀɴᴠᴀꜱ ᴏꜰ ᴛʜᴇ ᴀɪʀ."<br>
@@ -234,7 +234,7 @@ It's time to ignite your excitement 😊 and markup the date of the ➋➊-⓿�
         "date": "February 22, 2025",
         "time": "9:00 AM - 12:00 PM",
         "lead": "Roohid Basha",
-        "venue": "Updated Soon",
+        "venue": "817",
         "description": `
 Lights, camera, action! 🎬<br><br>
 
@@ -257,7 +257,7 @@ Lights, camera, action! 🎬<br><br>
         "date": "February 21, 2025",
         "time": "9:00 AM -12:00 PM",
         "lead": "Bharath Sanjay",
-        "venue": "UPDATED SOON",
+        "venue": "354",
         "description": `It's you vs. the cube . Can you solve it faster than anyone else? ⏳🔥 Join Twist of Genius , where speed meets skill in the ultimate Rubik's Cube face-off! 🚀🎯<br><br>
 
  📢 "One cube. One goal. One champion!" 🏆
@@ -286,7 +286,7 @@ Lights, camera, action! 🎬<br><br>
         "date": "February 21, 2025",
         "time": "9:30 AM - 12:00 PM",
         "lead": "Vaishnavi ",
-        "venue": "Updated Soon",
+        "venue": "4322",
         "description": `Do you have the skills to crack the clues and find your way out? ⏳🚪  
 
 Join us for Escape the Room , an exciting challenge where teamwork, logic, and quick thinking are the keys to success! 🔎🧩 Solve puzzles, uncover hidden clues, and race against time to escape!  `,
@@ -301,7 +301,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "date": "February 21, 2025",
         "time": "10:30 AM - 12:30 PM",
         "lead": "Sai Ram",
-        "venue": "Updated Soon",
+        "venue": "354",
         "description": `Speed. Logic. Precision. Do you have what it takes to be the Sudoku Champion?<br><br>
 
 🕵 Round 1: Race against the clock! Solve the puzzles fast - only the top 20 quickest minds move forward.<br>
@@ -317,7 +317,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "date": "February 21, 2025",
         "time": "Updated Soon",
         "lead": "Sravan",
-        "venue": "Updated Soon",
+        "venue": "352, Ground",
         "description": "These games are purely for enjoyment and do not  any registration fee. include these games Tug of war/Push up challenge/wired buzzer/lucky dice ",
         "formUrl": "https://forms.gle/zXARtpUrJuoA3pLb9"
     },
@@ -330,7 +330,7 @@ Join us for Escape the Room , an exciting challenge where teamwork, logic, and q
         "date": "February 21, 2025",
         "time": "2:00 PM - 5:00 PM",
         "lead": "ISTE + DATA",
-        "venue": "NAB Ground",
+        "venue": "NAB Ground, 4322(2nd round)",
         "description": "Face intense challenges, outplay your opponents, and fight for victory. One wrong move, and you're out!",
         "formUrl": "https://forms.gle/nwHxiyrxA8CpvxdP7"
     },
@@ -359,7 +359,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "date": "February 22, 2025",
         "time": "9:00 AM - 12:00 PM",
         "lead": "ISTE + The Coding Club + IEEE CIS",
-        "venue": "NAB(2) orTGR or 351,2,3,4",
+        "venue": "updated soon",
         "description": "Are you ready to take your coding and collaboration  skills to the next level📈? Join us for an interactive session on version control using Git & collaborative coding with GitHub ! this workshop 🛠 enhances your workflow, will equip🔧 you with essential skills to manage and share your code like a pro!💻💡.",
         "formUrl": "https://forms.gle/yyUrDBWBVS5smMoW6"
     },
