@@ -359,7 +359,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "date": "February 22, 2025",
         "time": "9:00 AM - 12:00 PM",
         "lead": "ISTE + The Coding Club + IEEE CIS",
-        "venue": "updated soon",
+        "venue": "Dasari Auditorium",
         "description": "Are you ready to take your coding and collaboration  skills to the next level📈? Join us for an interactive session on version control using Git & collaborative coding with GitHub ! this workshop 🛠 enhances your workflow, will equip🔧 you with essential skills to manage and share your code like a pro!💻💡.",
         "formUrl": "https://forms.gle/yyUrDBWBVS5smMoW6"
     },
