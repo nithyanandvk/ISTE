@@ -129,7 +129,7 @@ Share your anime-inspired experiences, talents, and passions!<br>
 " AI vs. AI: the ultimate showdown of silicon minds💥🤖." 
 
 `,
-        "formUrl": "https://forms.gle/LSk54zAZagiiKY1Y6"
+        "formUrl": "https://forms.gle/f7n4uS2GPa8cRZz46"
     },
     {
         "id": 6,
@@ -142,6 +142,7 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "lead": "Jambhava",
         "venue": "UPDATED SOON",
         "description": `Hey gamers!🎮<br>
+        <b>Note : Registration fee 200 per squad and 3500 prize money</b><br>
 Hope you’re all set for an adrenaline-pumping clash! 🚀🔥<br><br>
 Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play   where only the strongest💪 make it to the top! 🏆 Battle through multiple rounds, eliminate your enemies🙅‍♂, and claim victory as the last one standing!💥
 <br>
@@ -166,6 +167,7 @@ Gear up and drop into Battle Royale🥷 an intense  knockout-style battle play  
         "lead": "Abhilash, Nikitha",
         "venue": "Updated Soon",
         "description": `Hey foodies😋 ,<br> 
+        <b>Note : Registration fee 50 per squad and 2500 prize money</b><br>
 Hope u all waiting for a big bite🍔<br>
 Our college is hosting the biggest food challenge 🧑🏻‍🍳 <br><br>
 
@@ -185,7 +187,8 @@ Participants will face a gigantic food items🍱 or a platter that includes a co
         "time": "1:30 PM - 5:00 PM",
         "lead": "Jahnavi,Tejaswari,Divya",
         "venue": "Room No. 351, 2, 3, 4 ",
-        "description": `Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
+        "description": `
+        <b>Note : Registration fee 100 per squad and prize money updated soon</b><br>Hey Searchers! 🔍 Are you ready for the ultimate challenge? 🤔 <br><br> "Discover the Unseen!"
 
 As a part of ECSTASY ✨we are organizing a electrifying event 🏆, where participants will face thrilling puzzles across the college  🧩 and cryptic clues that lead to a hidden treasure 🏆!  
 `,
@@ -384,7 +387,7 @@ Get ready to code, create,and collaborate at our full-stack Hackathon!🎯 Wheth
         "time": "9:00 AM - 12:00 Pm",
         "lead": "ISTE + AWS",
         "venue": "Dasari Auditorium",
-        "description": "As a part of ECSTASY ✨, we are organizing a thrilling dance extravaganza 🌟, where participants🕺💃 will dazzle the audience with their 🤩mesmerizing moves and compete for the coveted title! 🏆",
+        "description":"Gen_Archivers, Get Ready for the Ultimate Cloud Experience!The wait is finally over! The much-anticipated CloudTech is happening.It’s time to elevate your knowledge and dive into the limitless possibilities of Cloud Computing.A 3-hour WORKSHOP and immersive seminar led by an AWS Certified Trainee.Exclusive participation certificates from Amazon for all attendees.",
         "formUrl": "https://forms.gle/GdJAPFXeG8qqpSWN8"
     }
 ];
@@ -410,11 +413,11 @@ function showEventDetails(eventId) {
                     </div>
                     <div class="info-item">
                         <i class="fas fa-money-bill"></i>
-                        <span>Fee: &#8377;${event.fee}</span>
+                        <span>Fee: &#8377;<b>${event.fee}</b></span>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-trophy"></i>
-                        <span>Prize: &#8377;${event.prize}</span>
+                        <span>Prize: &#8377;<b>${event.prize}</b></span>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-user"></i>
