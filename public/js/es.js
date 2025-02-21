@@ -140,7 +140,7 @@ Share your anime-inspired experiences, talents, and passions!<br>
         "date": "February 22, 2025",
         "time": "9:30 AM - 12:30PM",
         "lead": "Jambava",
-        "venue": "UPDATED SOON",
+        "venue": "Workshop No:6 Drawing hall opp to g block near v hostel",
         "description": `Hey gamers!🎮<br>
         <b>Note : Registration fee 200 per squad and 3500 prize money</b><br>
 Hope you’re all set for an adrenaline-pumping clash! 🚀🔥<br><br>
