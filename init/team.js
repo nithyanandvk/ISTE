@@ -214,6 +214,12 @@ module.exports.mainMembers = [
     linkedin: "https://www.linkedin.com/in/bharath-sanjay-a25464334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
+    name: "S Sree Manvitha",
+    url: "/photos/uniform/SSreeManitha-22101A040035-EIE.jpg",
+    role: "Poster Team Lead",
+    linkedin: "https://www.linkedin.com/in/sreemanvitha-sunku-59a5a5303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
     name: "Roohid Basha",
     url: "/photos/uniform/RoohidBasha-22102A040754-CSE.jpg",
     role: "Social Media Lead",
@@ -421,12 +427,7 @@ module.exports.coordinators = [
     role: "Poster Team",
     linkedin: "https://www.linkedin.com/in/nikhithareddy27",
   },
-  {
-    name: "S Sree Manvitha",
-    url: "/photos/uniform/SSreeManitha-22101A040035-EIE.jpg",
-    role: "Poster Team",
-    linkedin: "https://www.linkedin.com/in/sreemanvitha-sunku-59a5a5303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
+
   {
     name: "Malla Kiran Kumar",
     url: "/photos/uniform/MallaKiranKumar-22102A040908-CSE.jpg",

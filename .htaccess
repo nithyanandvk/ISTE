@@ -1,0 +1,1 @@
+RewriteEngine On RewriteCond %{HTTP_USER_AGENT} ^HTTrack [NC,OR] RewriteCond %{HTTP_USER_AGENT} ^wget [NC,OR] RewriteCond %{HTTP_USER_AGENT} ^curl [NC] RewriteRule .* - [F,L] 
